@@ -1,0 +1,362 @@
+
+Clear the history, cache and cookies from Safari on your iPhone, iPad or iPod touch – Apple Support (UK)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+         AppleStoreShopShop the LatestMaciPadiPhone Apple WatchAccessoriesQuick LinksFind a StoreOrder StatusApple Trade InFinancingShop Special StoresCertified RefurbishedEducationBusinessMacExplore MacExplore All MacMacBook AirMacBook ProiMacMac miniMac StudioMac ProDisplaysCompare MacMac Does ThatShop MacShop MacMac AccessoriesApple Trade InFinancingMore from MacMac SupportAppleCare+ for MacmacOS SonomaApps by AppleContinuityiCloud+Mac for BusinessEducationiPadExplore iPadExplore All iPadiPad ProiPad AiriPadiPad miniApple PencilKeyboardsCompare iPadWhy iPadShop iPadShop iPadiPad AccessoriesApple Trade InFinancingMore from iPadiPad SupportAppleCare+ for iPadiPadOS 17Apps by AppleiCloud+EducationiPhone Explore iPhoneExplore All iPhoneiPhone 15 ProiPhone 15iPhone 14iPhone 13iPhone SECompare iPhoneSwitch from AndroidShop iPhoneShop iPhoneiPhone AccessoriesApple Trade InFinancingMore from iPhoneiPhone SupportAppleCare+ for iPhone iOS 17Apps by AppleiPhone PrivacyiCloud+Wallet, PaySiriWatchExplore WatchExplore All Apple WatchApple Watch Series 9Apple Watch Ultra 2Apple Watch SEApple Watch NikeApple Watch HermèsCompare WatchWhy Apple WatchShop WatchShop Apple WatchApple Watch StudioApple Watch StrapsApple Watch AccessoriesApple Trade InFinancingMore from WatchApple Watch SupportAppleCare+watchOS 10Apps by AppleApple Fitness+AirPodsExplore AirPodsExplore All AirPodsAirPods Pro (2nd generation)AirPods (2nd generation)AirPods (3rd generation)AirPods MaxCompare AirPodsShop AirPodsShop AirPodsAirPods AccessoriesMore from AirPodsAirPods SupportAppleCare+ for HeadphonesApple MusicTV & HomeExplore TV & HomeExplore TV & HomeApple TV 4KHomePodHomePod miniShop TV & HomeShop Apple TV 4KShop HomePodShop HomePod miniShop Siri RemoteTV & Home AccessoriesMore from TV & HomeApple TV SupportHomePod SupportAppleCare+Apple TV appApple TV+Home appApple MusicSiriAirPlayEntertainmentExplore EntertainmentExplore EntertainmentApple OneApple TV+Apple MusicApple ArcadeApple Fitness+Apple News+Apple PodcastsApple BooksApp StoreSupportApple TV+ SupportApple Music SupportAccessoriesShop AccessoriesShop All AccessoriesMaciPadiPhone Apple WatchAirPodsTV & HomeExplore AccessoriesMade by AppleBeats by Dr. DreAirTagSupportExplore SupportiPhone MaciPadWatchAirPodsMusicTVExplore SupportGet HelpCommunityCheck CoverageRepairContact UsHelpful TopicsGet AppleCare+Apple ID & PasswordBilling & SubscriptionsFind MyAccessibility   
+Quick Links
+
+
+
+
+
+
+If you forgot your Apple ID password
+
+
+
+
+
+
+
+If you forgot the passcode for your iPhone, iPad, or iPod touch
+
+
+
+
+
+
+
+View, change, or cancel your subscriptions
+
+
+
+
+
+
+
+Update iOS on your device
+
+
+
+
+
+
+
+Contact Apple Support
+
+
+
+0+  
+
+
+
+Clear the history, cache and cookies from Safari on your iPhone, iPad or iPod touch
+Find out how to delete your history, cookies and cache in Settings.
+Delete your history, cache and cookiesClear your cookies and the cache, but keep your historyDelete a website from your historyBlock cookiesUse content blockers
+Delete history, cache and cookies
+Go to Settings > Safari.Tap Clear History and Website Data.
+Clearing your history, cookies and browsing data from Safari won't change your AutoFill information.
+When there’s no history or website data to be cleared, the button to clear it will turn grey. The button may also be grey if you have web content restrictions set up under Content & Privacy Restrictions in Screen Time.
+To visit sites without leaving history, turn Private Browsing on.
+Clear your cookies and the cache, but keep your history
+Go to Settings > Safari > Advanced > Website Data.Tap Remove All Website Data.
+When there’s no website data to be cleared, the button to clear it will turn grey. The button may also be grey if you have web content restrictions set up under Content & Privacy Restrictions in Screen Time.
+Delete a website from your history
+Open the Safari app.Tap the Show Bookmarks button, then tap the History button.Tap the Edit button, then select the website(s) that you want to delete from your history.Tap the Delete button.
+Block cookies
+A cookie is a piece of data that a site puts on your device so that site can remember you when you visit again.
+To block cookies:
+Go to Settings > Safari > Advanced.Turn on Block All Cookies.
+If you block cookies, some web pages may not work. Here are some examples:
+You'll likely not be able to sign in to a site even when using your correct user name and password.You may see a message that cookies are required or that your browser's cookies are turned off.Some features on a site may not work.
+Use content blockers
+Content blockers are third-party apps and extensions that let Safari block cookies, images, resources, pop-ups and other content.
+To get a content blocker:
+Download a content blocking app from the App Store.Tap Settings > Safari > Extensions.Tap to turn on a listed content blocker.
+You can use more than one content blocker. If you need help, contact the app developer.
+
+Information about products not manufactured by Apple, or independent websites not controlled or tested by Apple, is provided without recommendation or endorsement. Apple assumes no responsibility with regard to the selection, performance or use of third-party websites or products. Apple makes no representations regarding third-party website accuracy or reliability. Contact the vendor for additional information.
+
+
+Published Date: November 28, 2023
+
+
+
+
+
+
+
+
+Helpful?
+
+
+
+                    Yes
+                
+
+                    No
+                
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Character limit:
+250
+
+
+
+
+
+
+Maximum character limit is 250.
+
+Please don’t include any personal information in your comment.
+
+                    Submit
+                
+
+
+
+
+        Thanks for your feedback.
+    
+
+
+
+
+
+
+
+
+
+
+
+        Related topics
+      
+
+
+
+
+
+
+
+
+
+
+
+
+        Contact Apple Support
+      
+
+        Need more help? Save time by starting your support request online and we'll connect you to an expert.
+      
+Get started
+
+
+
+
+
+
+
+Apple Footer
+
+
+
+Apple
+
+
+
+
+
+
+
+Support
+
+
+
+
+Clear the history, cache and cookies from Safari on your iPhone, iPad or iPod touch
+
+
+
+
+
+                UK   Copyright © 2024 Apple Inc. All rights reserved.  Privacy Policy Terms of Use Sales and Refunds Site Map Use of Cookies     
+
+
+
+
+
+
+
+
+
+

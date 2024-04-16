@@ -1,0 +1,295 @@
+
+
+
+
+About Your Choices | Yahoo
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Terms
+
+
+
+Privacy Center
+
+
+Back
+
+
+
+Privacy Center
+
+
+
+Topics
+
+
+Products
+
+
+Third Parties
+
+ 
+State Privacy Rights
+
+
+Back
+
+
+
+State Privacy Rights
+
+
+California
+Colorado
+Connecticut
+Utah
+Virginia
+Washington
+
+
+
+
+Dashboard & Controls
+
+
+Relevant Advertising
+
+
+
+
+
+Intellectual Property
+
+
+Back
+
+
+
+Intellectual Property
+
+
+
+Counterfeit Goods
+
+
+Counter Notice Process
+
+
+Repeat Infringer Policy
+
+
+Trademarks
+
+
+
+
+
+Permissions
+
+
+
+Closed Captioning
+
+
+
+Community Guidelines
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Terms
+
+Privacy Center
+
+
+
+Topics
+
+
+Products
+
+
+Third Parties
+
+ State Privacy Rights
+
+
+California
+Colorado
+Connecticut
+Utah
+Virginia
+Washington
+
+
+
+
+Dashboard & Controls
+
+
+Relevant Advertising
+
+
+
+
+Intellectual Property
+
+
+
+Counterfeit Goods
+
+
+Counter Notice Process
+
+
+Repeat Infringer Policy
+
+
+Trademarks
+
+
+
+
+Permissions
+
+Closed Captioning
+
+Community Guidelines
+
+
+
+
+
+
+
+
+
+
+
+
+About Your Choices
+Yahoo believes in providing you with choices regarding the data we collect and use to  build experiences we offer to you across the Yahoo brands, websites, apps, advertising services, products, services or technologies (“Services”). Read on for more detailed information regarding these choices below. You can also visit the Yahoo Privacy Controls to manage your Yahoo Service settings.
+Cookies and Similar Technologies
+You may be able to configure your browser to accept cookies, reject cookies, or notify you when a cookie is set. Each browser is different, so check the "Help" menu of your browser to learn how to change your cookie preferences. If you reject all cookies or certain similar technologies, you may not be able to use Yahoo Services that require you to "sign in," and you may not be able to take full advantage of all offerings. Please note that deleting the cookies in your browser may in some cases cancel your opt out. The Digital Advertising Alliance offers Protect My Choices, which will help ensure that your opt-out settings through the DAA consumer choice page persist regardless of whether you delete your cookies for supported browsers.
+Some technologies may use information from your device or device’s connection other than what is provided by your browser, which means you may not be able to control their use through the same browser tools and settings you use to control browser cookies. For example, the Adobe Flash Player is an application and web tool that allows rapid development of dynamic content. Flash (and similar applications) use technology to remember settings, preferences and usage similar to browser cookies but these are managed through a different interface than the one provided by your browser.
+Ad Personalization
+While it is not possible to turn off all advertising, you do have choices:
+Yahoo participates in multiple, regional self-regulatory bodies and is committed to adhering to their principles for online behavioral advertising. While distinct, these entities are all cooperatives of companies committed to building responsible advertising policies across the Internet. To learn more, please see them listed in Ad Serving.
+Even when you opt out of interest-based ads, we may still use information we obtain from your uses of our Services for fraud, security, analytics, research, Services innovation and improvement, and attribution purposes.
+You can, in many cases, opt-out of receiving targeted ads from other companies that serve ads on Yahoo Services by visiting our Third Parties on Yahoo page.
+While Yahoo does not share personally identifiable information with third parties for advertising purposes, if you have provided your email address to third parties in another context, you may be able to opt-out of further use of your data by exercising the Network Advertising Initiative’s Audience Matched Advertising opt-out control at optout.networkadvertising.org.
+If you access and use Yahoo services from multiple devices, or if you choose to share your device with others, your settings and preferences (“your choices”) may differ on those devices or be impacted by others’ activity. For the most consistent experience, ensure you are logged in to your Yahoo account across the devices that you regularly use, and be sure to log out of your Yahoo account before sharing your device with anyone else. For example:
+If you access and use Yahoo services from multiple devices, your choices may sometimes differ across those devices. When possible and practical, Yahoo will store your choices in your account settings and attempt to synchronize changes you make across your other devices. In cases where this is not possible, or the device environment interferes with the synchronization process, the choices you make will only apply to the given device, in a limited context, or for a limited time. For example, if you update choices on a device while in a logged-out state, those choices will apply only to that device, and they will be lost once you (or someone else) logs in to a Yahoo account on that device.
+If you choose to share your device with friends or family members, any choices they make or consents they provide while using your device may change your account settings (and possibly your experience) in unpredictable ways, including your experience on other devices you use, depending on the level of access you give them.
+
+On occasion, the choices you make may conflict with one another, and in such cases Yahoo will honor your most recent applicable choice. For example, if you make a browser-based advertising opt-out choice (such as through the Global Privacy Control or Ad Choices opt-out) but later provide consent to Yahoo for data sharing and use in another context, Yahoo will override your opt-out choice with your more recent consent. Note that support, effectiveness, and persistence of some choice mechanisms may also be limited by the type, version, or configuration of your device or operating system.
+When you log out of Yahoo services, in order to protect your account and your data, we remove all authentication cookies that are required to access your account. However, other cookies, such as those used for analytics, personalized advertising, and user experience settings (including privacy settings), may remain. If, after logging out, you continue to use Yahoo services, we will collect and use the activity data (including available cookie data), subject to your settings and this privacy policy. Also note that logging out of Yahoo services does not typically affect (or remove) any cookies that are set by Third Party business partners that operate on Yahoo. If you wish to remove these or other cookies, you can typically do so through the controls provided in your browser or device settings.
+
+Managing Your Location Information
+See Yahoo Privacy Controls for details on managing your location information.
+You may be able to opt out of providing precise location information to Yahoo, and having that information shared with third parties, by adjusting the settings on your device. Please note that you may need to adjust multiple settings, and not just your location preference, to opt out of providing precise location information to Yahoo. If you subsequently opt in to sharing location information for an individual service, your location information will be shared with that service. If you opt-out of providing precise location information to Yahoo, we may continue to derive your approximate location from your IP address and other information we may collect. For more information, please review your app and device settings. 
+If available, you may be able to manage your location(s) within the apps themselves. Note that if you consent to share your location information within a particular app, your location information collected from within that app may continue to be shared even after you have opted-out on your device.
+More Information
+If you’ve not logged into an Yahoo mobile application on your device or have not arrived at the opt-out page from an Yahoo mobile app, please use the mobile operating system’s controls to opt out of personalized ads. Even when not logged in, Yahoo may use your device identifier or other identifiers to associate users, devices, and accounts with each other or with those in a similar location, such as in a household.
+Once you log into Yahoo brands or Services on your device, Yahoo may recognize your device and provide you with a personalized experience (even if you log out). In most cases, we defer to your Yahoo Service settings when collecting and using this information. Your device's privacy settings may not provide you with full control over your privacy but you can control Yahoo ad targeting and personalization directly through Yahoo Privacy Controls.
+To stop the collection of information by an Yahoo app, you can uninstall the app using the standard uninstall process available on your device or via the app marketplace or network from which you installed the app.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                ©2024 Yahoo. All Rights Reserved.
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+12
+
+
+

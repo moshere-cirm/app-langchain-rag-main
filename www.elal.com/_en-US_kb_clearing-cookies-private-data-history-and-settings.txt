@@ -1,0 +1,587 @@
+
+
+
+
+
+
+
+  Clearing cookies, private data, history, and settings in Firefox for Android | Firefox for Android Help
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Skip to main content
+Switch language
+Skip to search
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Search
+Menu
+
+
+
+
+
+
+
+
+Get Help
+
+
+
+Close Firefox menu
+
+
+
+
+
+
+
+
+
+Ask a Question
+
+                Get support from our contributors or staff members.
+              
+
+
+
+
+                  Firefox Browser
+                
+
+
+
+                  Mozilla VPN
+                
+
+
+
+                  Firefox for iOS
+                
+
+
+
+                  Firefox Focus
+                
+
+
+
+                  Firefox for Android
+                
+
+
+
+                  Browse All Products
+                
+
+
+
+
+
+
+
+
+
+
+
+
+
+Explore Our Help Articles
+
+                Dig into the knowledge base, tips and tricks, troubleshooting, and so much more.
+              
+
+
+
+
+                  Firefox Browser
+                
+
+
+
+                  Mozilla VPN
+                
+
+
+
+                  Firefox for iOS
+                
+
+
+
+                  Firefox Focus
+                
+
+
+
+                  Firefox for Android
+                
+
+
+
+                  Browse All Articles
+                
+
+
+
+
+
+
+
+
+
+
+
+Mozilla Account
+
+                Find help for common issues and learn about the benefits a Mozilla account provides.
+              
+
+
+
+
+                  What Is It?
+                
+
+
+
+                  Get Help
+                
+
+
+
+                  Reset Password
+                
+
+
+
+
+                  Sync Your Data
+                
+
+
+
+
+
+
+
+
+
+
+    Contribute
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+Search
+
+Download Firefox
+
+
+
+    Sign In/Up
+  
+
+
+
+
+
+
+
+
+
+
+
+Search
+
+
+
+
+
+
+
+
+
+
+
+Search Support
+
+
+
+Search
+
+
+
+
+
+
+
+
+Home
+Firefox for Android
+Privacy and security settings
+Clearing cookies, private data,...
+
+
+
+
+
+
+
+
+Search
+
+
+
+
+
+Customize this article
+
+
+
+
+Customize this article
+
+
+
+Firefox for Android
+
+
+
+
+                      Version 125
+                    
+
+                      Version 124
+                    
+
+                      Version 123
+                    
+
+                      Version 122
+                    
+
+                      Version 121
+                    
+
+                      Version 120
+                    
+
+                      Version 119
+                    
+
+                      Version 118
+                    
+
+                      Version 117
+                    
+
+                      Version 116
+                    
+
+                      Version 115
+                    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Clearing cookies, private data, history, and settings in Firefox for Android
+
+
+
+
+
+
+
+        This article is no longer maintained, so its content might be out of date.
+      
+
+
+
+Firefox for Android provides a basic level of control over privacy-related data. You can easily clear ALL private data, but unlike the desktop version of firefox you cannot delete cookies for an individual website.
+The following tutorial demonstrates how to clear all private and historical data from your browser.
+
+
+
+
+
+To clear private data, cookies, history and settings in Firefox for Android, tap the Main menu > More > Settings.
+Select Clear private data from the Privacy & Security section of the Settings screen.
+Choose the data you want to keep or clear by enabling the check boxes.
+Tap Clear data.
+
+A notification appears confirming your data was cleared.
+
+To clear private data, cookies, history and settings in Firefox for Android, tap the Menu button (either  at the bottom right on some devices or in the upper right of the browser)
+, then tap Settings (on some devices you may have to tap More first).
+Tap Privacy and then tap Clear private data.
+Choose the data you want to keep or clear by enabling the check boxes.
+Tap Clear data.
+
+A notification appears confirming your data was cleared.
+
+
+
+
+
+
+These fine people helped write this article: Roland Tanglao, scoobidiver, Andrew, Swarnava Sengupta, mluna, fizzbo
+
+
+
+
+
+
+Volunteer
+Grow and share your expertise with others. Answer questions and improve our knowledge base.
+Learn More
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Mozilla
+
+Report Trademark Abuse
+Source code
+Twitter
+
+
+                Join our Community
+              
+
+
+
+                Explore Help Articles
+              
+
+
+
+
+Firefox
+
+Download
+Firefox Desktop
+Android Browser
+iOS Browser
+Focus Browser
+
+
+
+Firefox for Developers
+
+Developer Edition
+Beta
+Beta for Android
+Nightly
+Nightly for Android
+
+
+
+Mozilla Account
+
+Sign In/Up
+
+
+                What Is It?
+              
+
+Reset Password
+
+
+                Sync Your Data
+              
+
+
+
+                Get Help
+              
+
+
+
+
+
+Language
+Language
+
+Afrikaans
+عربي
+Azərbaycanca
+Български
+Bamanankan
+বাংলা
+Bosanski
+català
+Čeština
+Dansk
+Deutsch
+Èʋegbe
+Ελληνικά
+English
+Español
+eesti keel
+Euskara
+فارسی
+suomi
+Français
+Frysk
+Gaeilge (Éire)
+Galego
+Avañe'ẽ
+ગુજરાતી
+هَرْشَن هَوْسَ
+עברית
+हिन्दी (भारत)
+Hrvatski
+Magyar
+Dolnoserbšćina
+Hornjoserbsce
+Bahasa Indonesia
+Asụsụ Igbo
+Italiano
+日本語
+ქართული
+ខ្មែរ
+ಕನ್ನಡ
+한국어
+Lingála
+lietuvių kalba
+Malagasy
+Македонски
+മലയാളം
+Bahasa Melayu
+नेपाली
+Nederlands
+Norsk
+Polski
+Português (do Brasil)
+Português (Europeu)
+română
+Русский
+සිංහල
+slovenčina
+slovenščina
+Shqip
+Српски
+Kiswahili
+Svenska
+தமிழ்
+தமிழ் (இலங்கை)
+తెలుగు
+ไทย
+Setswana
+Türkçe
+Українська
+اُردو
+Tiếng Việt
+Wolof
+isiXhosa
+èdè Yorùbá
+中文 (简体)
+正體中文 (繁體)
+isiZulu
+
+
+Go
+
+
+Twitter(@firefox)
+YouTube (firefoxchannel)
+Instagram (firefox)
+
+
+
+
+
+
+Mozilla
+
+
+mozilla.org
+Terms of Service
+Privacy
+Cookies
+Contact
+
+
+
+
+
+          Visit Mozilla Corporation’s not-for-profit parent, the Mozilla Foundation.
+        
+
+          Portions of this content are ©1998–2024 by individual mozilla.org contributors. Content available under a Creative Commons license.
+        
+
+
+
+
+

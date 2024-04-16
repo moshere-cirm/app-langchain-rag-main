@@ -1,0 +1,1116 @@
+
+
+
+
+
+
+
+
+Outbrain Cookie Table - Privacy
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Outbrain Cookie Table - Privacy
+
+
+
+
+
+
+
+
+
+
+
+
+Skip Navigation
+
+
+
+Outbrain logo - link to homepage
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Advertisers
+
+Advertise with Outbrain
+Native Advertising
+Contextual Advertising
+Ads Specs
+Brand Studio
+Buy Outbrain, Your Way
+Onyx
+
+
+Media Owners
+
+Publishers
+New Media
+Discover Smartlogic
+Keystone
+
+
+Company
+
+Company OverviewNewsThought Leadership
+Investors
+Leadership
+Offices
+Careers
+Resources
+All Resources
+Blog
+Events
+Case Studies
+Guides
+Help Center
+
+
+
+
+
+
+
+
+
+Start NowLogin
+
+
+
+
+
+
+
+
+
+
+Cookies 
+
+
+Privacy Policy
+Cookies
+Security
+COOKIE TABLE
+This Cookie Table provides you with information about the cookies and other similar technologies Outbrain and/or its partners may use, their purpose and the retention period associated with such cookie. Where a third party partner drops a cookie, they determine the purpose for which that cookie is dropped and the relevant retention period.
+We may place cookies or similar files such as pixel tags and web beacons on the devices you use to engage with Outbrain for security purposes, to facilitate site navigation and to personalize your experience when you engage with Outbrain as a Site Vistior, a User or a Business Partner. Cookies allow us to collect technical and navigational information, such as browser type, time spent by you engaging with Outbrain and pages visited. Please read our Privacy Policy to further understand how we use data collected by these cookies and see below for a description of the different categories:
+User: you are a User when you visit a website or application of one of Outbrain’s partners (website or application publisher) where the Outbrain widget is implemented. For example, if you visit https://news.sky.com/uk or www.cnn.com, the Outbrain widget is implemented on those websites. You know you are engaging with our widget when it is labelled with a text referencing Outbrain (e.g., “Smartfeed” or “Recommended by Outbrain”, with the Outbrain logo near recommendations and advertisements). If you click on the hyperlinked reference to Outbrain you will see a detailed information notice that enables you to navigate to Outbrain’s Interest Profile, which provides information on the interest categories we think you might be interested in, which websites you have visited where Outbrain technology is installed and which device and browser is used, and the ability to opt out (or Do Not Sell) or withdraw your consent from interest based advertisements.
+Site Visitor: you are a Site Visitor when you visit and interact with any of our websites, namely Outbrain.com (or any derivation, such as Outbrain.co.uk; Outbrain.fr; Outbrain.de etc.). You may review your cookies settings at any time by clicking this button: Cookies Settings
+Business Partners: you are a Business Partner when you register (or email with Outbrain) on behalf of the company you work for to use the Outbrain Amplify or Outbrain Engage services.
+For even more information about cookies, we recommend visiting this website.
+Users
+
+
+
+Strictly Necessary Cookies
+These cookies are necessary for the effective functioning of our services, such as tracking fraudulent activity and behaviour. Accordingly, they cannot be switched off in our systems, unless our publisher partner is using a cookieless solution.
+
+
+
+Name of the Controller/Cookie
+Purpose
+Expiration
+Link to Privacy Notice
+
+
+Akamai akacd_#
+Allows to assign a certain number of users to a specific version of the website
+Session
+https://www.akamai.com/legal/compliance/privacy-trust-center
+
+
+CHEQ AI TECHNOLOGIES
+Fraud prevention
+1 year
+https://cheq.ai/privacy-policy/
+
+
+DoubleVerify Inc.
+Advertising verification
+Session
+https://doubleverify.com/privacy-notice/solutions-privacy-notice
+
+
+Integral Ad Science, Inc.
+Advertising verification
+Session
+https://integralads.com/ias-privacy-data-management/policies/
+
+
+Oracle Data Cloud – Moat
+Advertising verification
+Session
+https://www.oracle.com/legal/privacy/services-privacy-policy.html
+
+
+Outbrain opout
+Holds information about optout from Outbrain personalized advertising
+1 year
+https://www.outbrain.com/privacy/
+
+
+
+Functional Cookies
+These cookies allow us to deliver content more effectively and improve the user experience on publishers’ websites, such as frequency capping. They are not used for personalized advertising. If they are blocked, it may alter the browsing experience and break some functionalities on some websites.
+
+
+
+Name of the Controller/Cookie
+Purpose
+Expiration
+Link to Privacy Notice
+
+
+Aniview Ltd
+Used for technically playing video content
+90 days
+https://www.aniview.com/privacy-policy/
+
+
+Outbrain obsessionid-{}
+Stores a unique identifier of the session so that we don’t show only the same recommendations on the same session
+30 minutes
+ https://www.outbrain.com/privacy/
+
+
+Outbrain recs-{}
+Stores the recommendations we’re recommending so that we don’t show only the same recommendations on the same page
+1 minute
+https://www.outbrain.com/privacy/
+
+
+Outbrain ref-{}
+Stores the referring document information to identify the source of traffic to improve contextual recommendations
+1 minute
+https://www.outbrain.com/privacy/
+
+
+video intelligence AG
+Used for technically playing video content
+90 days
+https://www.vi.ai/legal/privacy-policy/
+
+
+Vidazoo Ltd
+Used for technically playing video content
+1 month
+https://vidazoo.gitbook.io/vidazoo-legal/privacy-policy
+
+
+
+Personalized Advertising Cookies
+These cookies are for personalized advertising purposes, to serve recommendations that may be interesting to Users, for conversion attribution and retargeting purposes. These cookies are set only if User gave a clear consent signal in countries where GDPR applies, or has not opted out under applicable privacy laws or relevant industry frameworks.
+
+
+
+Name of the Controller/Cookie
+Purpose
+Expiration
+Link to Privacy Notice
+
+
+Outbrain auid
+Holds the advertising ID of the User on mobile devices. Used for tracking user actions, such as pages visited and clicks on recommendations, and personalized advertising
+90 days
+https://www.outbrain.com/privacy/
+
+
+Outbrain obuid
+Holds the Outbrain UUID. Used for tracking user actions, such as pages visited, clicks on recommendations, and personalized advertising
+90 days
+https://www.outbrain.com/privacy/
+
+
+Outbrain outbrain_dicbo_id
+Used for conversion attribution when a browser does not allow third party cookies
+1 day
+https://www.outbrain.com/privacy/
+
+
+
+Third Party Advertising Cookies
+We use third party advertising partners to synchronise advertising IDs, to improve the list of a User’s interests and show more relevant recommendations. These cookies are set depending on the User’s preferences with the applicable partners.
+
+
+
+Name of the Controller/Cookie
+Purpose
+Expiration
+Link to Privacy Notice
+
+
+ADITION (Virtual Minds GmbH)
+Cookie syncing
+1 year
+https://www.adition.com/en/privacy-platform
+
+
+Adjust Digital A/S
+Cookie syncing
+Session
+https://adjust-digital.com/privacy/
+
+
+Adobe Advertising Cloud
+Cookie syncing
+1 year
+https://www.adobe.com/privacy/experience-cloud.html
+
+
+ADYOULIKE SA
+Cookie syncing
+1 year
+https://www.adyoulike.com/pages/privacy
+
+
+Amazon Advertising
+Cookie syncing
+13 months
+https://www.amazon.co.uk/gp/help/customer/display.html?nodeId=201909010
+
+
+Baidu USA
+Cookie syncing
+366 days
+https://www.mediago.io/policy/
+
+
+Basis Global Technologies, Inc.
+Cookie syncing
+30 days
+https://www.basis.net/privacy-policy/
+
+
+BIDSWITCH GmbH
+Cookie syncing
+1 year
+https://www.bidswitch.com/privacy-policy/
+
+
+Bombora Inc.
+Cookie syncing
+1 year
+https://bombora.com/privacy
+
+
+CentralNic Poland sp. z o.o.
+Cookie syncing
+1 year
+https://voluum.com/privacy-policy/
+
+
+Criteo SA
+Cookie syncing
+390 days
+https://www.criteo.com/privacy/
+
+
+EMX Digital, Inc.
+Cookie syncing
+30 days
+https://emxdigital.com/privacy/
+
+
+Eyeota Pte Ltd
+Cookie syncing
+1 year
+https://www.eyeota.com/privacy-center
+
+
+Google Advertising Products
+Cookie syncing
+13 months
+https://business.safety.google/privacy/
+
+
+GumGum, Inc.
+Cookie syncing
+1 year
+https://www.gumgum.com/terms-and-policies/privacy-policy
+
+
+ID5 Technology Ltd
+Cookie syncing
+90 days
+https://id5.io/privacy
+
+
+Improve Digital
+Cookie syncing
+90 days
+https://www.improvedigital.com/platform-privacy-policy
+
+
+Index Exchange, Inc.
+Cookie syncing
+395 days
+https://www.indexexchange.com/privacy
+
+
+Infolinks Media, LLC
+Cookie syncing
+1 year
+https://www.infolinks.com/privacy-policy
+
+
+InMobi Pte Ltd
+Cookie syncing
+Session
+https://www.inmobi.com/privacy-policy-for-eea
+
+
+ividence
+Cookie syncing
+90 days
+https://ividence.com/politique-de-confidentialite/
+
+
+Kargo Global Inc.
+Cookie syncing
+1 year
+https://kargo.com/privacy
+
+
+Kochava Inc.
+Cookie syncing
+Session
+https://www.kochava.com/support-privacy/
+
+
+LiveRamp
+Cookie syncing
+1 year
+https://liveramp.fr/iab-transparency-consent-framework/
+
+
+LoopMe Limited
+Cookie syncing
+90 days
+https://legal.loopme.com/privacy-center#contract-hyartvn1o
+
+
+Lotame Solutions, inc
+Cookie syncing
+9 months
+https://www.lotame.com/about-lotame/privacy/lotames-products-services-privacy-policy/
+
+
+Magnite, Inc.
+Cookie syncing
+1 year
+https://www.magnite.com/legal/advertising-technology-privacy-policy/
+
+
+Media.net Advertising FZ-LLC
+Cookie syncing
+6 years
+https://www.media.net/privacy-policy/
+
+
+MEDIA FORCE COMMUNICATIONS (2007) LTD
+Cookie syncing
+2 years
+https://comparisons.org/privacy.php
+
+
+Microsoft Advertising
+Cookie syncing
+13 months
+https://privacy.microsoft.com/privacystatement
+
+
+Nativo, Inc.
+Cookie syncing
+1 year
+https://www.nativo.com/interest-based-ads
+
+
+Neodata Group srl
+Cookie syncing
+1 year
+https://www.neodatagroup.com/en/services-privacy-policy-en/
+
+
+Neustar, Inc., a TransUnion company
+Cookie syncing
+1 year
+https://www.home.neustar/privacy
+
+
+Nielsen Media Research Ltd.
+Cookie syncing
+120 days
+https://www.nielsen.com/us/en/legal/privacy-statement/nielsen-marketing-cloud-privacy-notice/
+
+
+OpenX
+Cookie syncing
+1 year
+https://www.openx.com/legal/privacy-policy/
+
+
+Opera Software Ireland Limited
+Cookie syncing
+Session
+https://www.opera.com/privacy
+
+
+Oracle Advertising
+Cookie syncing
+180 days
+https://www.oracle.com/legal/privacy/marketing-cloud-data-cloud-privacy-policy.html
+
+
+plista GmbH
+Cookie syncing
+1 year
+https://www.plista.com/privacy-policy/
+
+
+PubMatic, Inc
+Cookie syncing
+90 days
+https://pubmatic.com/legal/privacy/
+
+
+PulsePoint, Inc.
+Cookie syncing
+1 year
+https://pulsepoint.com/legal/platform-privacy-policy
+
+
+Quantcast
+Cookie syncing
+13 months
+https://www.quantcast.com/privacy
+
+
+QuantumCast digital GmbH
+Cookie syncing
+Session
+https://www.quantumcast-digital.com/privacy-policy
+
+
+Recontent, LLC
+Cookie syncing
+Session
+https://help.revcontent.com/en/knowledge/revcontent-privacy-policy
+
+
+RTB House S.A.
+Cookie syncing
+1 year
+https://www.rtbhouse.com/privacy-center/services-privacy-policy/
+
+
+Salesforce.com, Inc.
+Cookie syncing
+180 days
+https://www.salesforce.com/company/privacy/
+
+
+Seedtag Advertising S.L
+Cookie syncing
+1 year
+https://www.seedtag.com/en/privacy-policy/
+
+
+Sharethrough, Inc
+Cookie syncing
+30 days
+https://www.sharethrough.com/privacy-center/consumer-privacy-notice
+
+
+Smaato, Inc.
+Cookie syncing
+21 days
+https://www.smaato.com/privacy/
+
+
+Smart Adserver
+Cookie syncing
+13 months
+https://smartadserver.com/end-user-privacy-policy/
+
+
+Start.io Inc
+Cookie syncing
+Session
+https://www.start.io/policy/privacy-policy-site/
+
+
+Ströer SSP GmbH (SSP)
+Cookie syncing
+1 year
+https://www.stroeer.de/ssp-datenschutz
+
+
+Teads France SAS
+Cookie syncing
+1 year
+https://www.teads.com/privacy-policy/
+
+
+The Trade Desk
+Cookie syncing
+1 year
+https://www.thetradedesk.com/general/privacy-policy
+
+
+TripleLift, Inc.
+Cookie syncing
+90 days
+https://triplelift.com/privacy/
+
+
+Unruly Group LLC
+Cookie syncing
+1 year
+https://unruly.co/legal/privacy/
+
+
+Verve Group Europe GmbH
+Cookie syncing
+Session
+https://pubnative.net/privacy-notice/
+
+
+Weborama
+Cookie syncing
+393 days
+https://weborama.com/respect-de-la-vie-privee-2-2/
+
+
+Xandr, Inc.
+Cookie syncing
+90 days
+https://www.xandr.com/privacy/platform-privacy-policy/
+
+
+Yahoo EMEA Limited
+Cookie syncing
+397 days
+https://legal.yahoo.com/ie/en/yahoo/privacy/index.html
+
+
+Yieldmo, Inc.
+Cookie syncing
+1 year
+https://www.yieldmo.com/privacy/
+
+
+Zemanta Inc.
+Cookie syncing
+1 year
+https://www.zemanta.com/privacy/
+
+
+
+Site Visitors
+
+
+
+Strictly Necessary Cookies
+These cookies are necessary for the website to function and cannot be switched off in our systems. They are usually only set in response to actions made by you which amount to a request for services, such as setting your privacy preferences, logging in or filling in forms. You can set your browser to block or alert you about these cookies, but some parts of the site will not then work. These cookies do not store any personally identifiable information.
+
+
+
+Name of the Controller/Cookie
+Purpose
+Expiration
+Link to Privacy Notice
+
+
+Google Tag Manager
+_dc_gtm_UA-xxxxxxxx
+
+This cookie is associated with sites using Google Tag Manager to load other scripts and code into a page. Where it is used it may be regarded as Strictly Necessary as without it, other scripts may not function correctly. The end of the name is a unique number which is also an identifier for an associated Google Analytics account.
+Session
+https://policies.google.com/privacy?hl=en
+
+
+OneTrust
+OptanonConsent
+
+This cookie is set by the cookie compliance solution from OneTrust. It stores information about the categories of cookies the site uses and whether visitors have given or withdrawn consent for the use of each category. This enables site owners to prevent cookies in each category from being set in the users browser, when consent is not given.
+1 year
+https://www.onetrust.com/privacy-notice/
+
+
+Outbrain
+europe
+Stores if the user is from Europe
+1 hour
+https://www.outbrain.com/legal/privacy#privacy-policy
+
+
+
+Performance Cookies
+These cookies allow us to count visits and traffic sources so we can measure and improve the performance of our website. They help us to know which pages are the most and least popular and see how visitors move around the site. All information these cookies collect is aggregated and therefore anonymous. If you do not allow these cookies we will not know when you have visited our site and will not be able to monitor its performance.
+
+
+
+Name of the Controller/Cookie
+Purpose
+Expiration
+Link to Privacy Notice
+
+
+Unbounce
+ubvt
+This service allows site owners to test the effectiveness of different versions of web pages and ensure that visitors consistently see the expected version of a page.
+3 years
+https://unbounce.com/privacy/
+
+
+ubvt
+3 days
+
+
+ubvs
+6 months
+
+
+ubpv
+6 months
+
+
+Google Universal Analytics
+_ga
+This is used to distinguish unique users by assigning a randomly generated number as a client identifier. It is included in each page request in a site and used to calculate visitor, session and campaign data for the site’s analytics reports
+14 months
+https://policies.google.com/privacy?hl=en
+
+
+_gid
+1 day
+
+
+_ga_NTFSE0FZ9Y
+14 months
+
+
+hotjar
+_hjIncludedInSample
+TUniquely identifies a visitor during a single browser session and indicates they are included in an audience sample.
+Session
+https://www.hotjar.com/legal/policies/privacy/
+
+
+_hjid
+This cookie is set when the customer first lands on a page with the Hotjar script. It is used to persist the random user ID, unique to that site on the browser. This ensures that behavior in subsequent visits to the same site will be attributed to the same user ID.
+1 year
+
+
+kissmetrics
+km_lv
+Used to provide site owners with information about how visitors use the site.
+5 years
+https://www.kissmetrics.io/privacy/
+
+
+km_ai
+5 years
+
+
+Outbrain
+obca_vid
+This cookie installed by Outbrain to set up attribution of the visits of the user in order to measure Marketing campaigns
+1 year
+https://www.outbrain.com/legal/privacy#privacy-policy
+
+
+obca_sid
+This cookie installed by Outbrain to set up attribution of the session of the user in order to measure Marketing campaigns
+30 minutes
+
+
+obca_data
+This cookie is installed by Outbrain in order to measure the use of the website for internal analytics.
+1 year
+
+
+Microsoft
+_clck
+This cookie name is associated with Microsoft Clarity
+1 year
+ 
+
+
+Clearbit
+cb_group_id
+Stores a unique user ID for a website user to link other usage data to that same cb_user_id.
+7 days
+https://clearbit.com/privacy
+
+
+cb_anonymous_id
+Stores an ID tied to a particular company to append company information to a website user.
+7 days
+
+
+cb_user_id
+Assigns a unique ID to a website user to tie website usage to a specific user on the website.
+7 days
+
+
+
+Targeting and Advertising Cookies
+These cookies may be set through our site by our advertising partners. They may be used by those companies to build a profile of your interests and show you relevant adverts on other sites. They do not store directly personal information, but are based on uniquely identifying your browser and internet device. If you do not allow these cookies, you will experience less targeted advertising.
+
+
+
+Name of the Controller/Cookie
+Purpose
+Expiration
+Link to Privacy Notice
+
+
+Facebook
+_fbp
+
+Deliver a series of advertisement products such as real time bidding from third party advertisers.
+3 months
+https://en-us.facebook.com/policy/cookies/
+
+
+Google AdSense
+_gcl_au
+Used for experimenting with advertisement efficiency across websites using their services
+3 months
+https://policies.google.com/privacy?hl=en
+
+
+Interactive Studios
+_evga_
+Interaction Studio uses the cookie to allow the sitemap to send user data back to the appropriate dataset
+2 years
+ 
+
+
+kissmetrics
+kvcd
+Social Media sharing tracking.
+Session
+https://www.kissmetrics.io/privacy/
+
+
+km_vs
+30 minutes
+
+
+Linkedin
+lang
+Connected with LinkedIn’s marketing services to enable website owners to gain insight into types of users on their site based on LinkedIn profile data, to improve targeting.
+Session
+ 
+
+
+lidc
+Used where website owners have placed one of LinkedIn content sharing buttons in their pages.
+1 day
+https://www.linkedin.com/legal/privacy-policy
+
+
+bcookie
+2 years
+
+
+UserMatchHistory
+1 month
+
+
+Bing
+MUID
+Used where website owners have placed one of LinkedIn content sharing buttons in their pages.
+1 year
+https://privacy.microsoft.com/en-us/privacystatement
+
+
+MUIDB
+1 year
+
+
+DoubleClick
+test_cookie
+Google real time bidding advertising exchange.
+15 minutes
+https://policies.google.com/privacy?hl=en
+
+
+
+Business Partners
+
+
+
+Strictly Necessary Cookies
+These cookies are necessary for the website to function and cannot be switched off in our systems. They are usually only set in response to actions made by you which amount to a request for services, such as setting your privacy preferences, logging in or filling in forms. You can set your browser to block or alert you about these cookies, but some parts of the site will not then work.
+
+
+
+Name of the Controller/Cookie
+
+Purpose
+
+
+Expiration
+
+Link to Privacy Notice
+
+
+Google Analytics
+
+__utmt
+
+
+This cookie is used to throttle the request rate for the service – limiting the collection of data on high traffic sites.
+
+
+10 minutes
+
+https://policies.google.com/privacy?hl=en-US
+
+
+Google Analytics
+
+__utmz
+
+
+Enables website owners to track visitor behaviour measures of site performance. This cookie identifies the source of traffic to the site – so Google Analytics can tell site owners where visitors came from when arriving on the site.
+
+
+6 months
+
+https://policies.google.com/privacy?hl=en-US
+
+
+Kissmetrics
+
+km_ai
+
+
+Cookie set by Kissmetrics analytics service. Used to provide site owners with information about how visitors use the site.
+
+
+5 years
+
+https://www.kissmetrics.io/privacy/
+
+
+Microsoft
+
+_uetsid
+
+
+This cookie is used by Bing to determine what ads should be shown that may be relevant to the end user perusing the site.
+
+
+24 minutes
+
+https://privacy.microsoft.com/en-us/privacystatement
+
+
+Kissmetrics
+
+km_vs
+
+
+Social Media sharing tracking cookie.
+
+
+24 minutes
+
+https://www.kissmetrics.io/privacy/
+
+
+Kissmetrics
+
+Kvcd
+
+
+Social Media sharing tracking cookie.
+
+
+User Session
+
+https://www.kissmetrics.io/privacy/
+
+
+Facebook
+
+Fr
+
+
+Contains browser and user unique ID combination, used for targeted advertising.
+
+
+3 months
+
+https://en-us.facebook.com/policy/cookies/
+
+
+
+ 
+
+
+
+
+
+
+
+Outbrain logo - link to homepage
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+For Advertisers
+ Advertise with OutbrainNative AdvertisingContextual AdvertisingAds SpecsDemo OutbrainHow to Buy OutbrainOutbrain Academy
+Advertiser Guidelines
+Advertising FAQSupport
+
+
+
+
+Insights
+
+
+Advertising Glossary
+Vertical Insights
+Vertical Hub
+
+
+
+
+Affiliates
+
+Affiliate MarketingAffiliate Hub
+High-Conversion Content
+Repurpose Social Campaigns
+
+
+About Outbrain
+Company OverviewCultural ManifestoLeadershipJoin UsTrust & TransparencyFor PublishersNewsThought LeadershipContact Us
+
+
+
+
+
+Resources
+
+Outbrain BlogResources HubEventsWebinarsCase StudiesPerformance MarketingAdvertising AcademyPublisher's Directory
+Affiliate HubHelp Center
+
+
+
+
+
+RegisterLogin
+
+
+Privacy
+PrivacyPrivacy
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Ready to start?
+Try Outbrain for Advertisers today
+
+
+
+
+
+
+Your work email
+
+
+
+
+
+
+
+
+
+
+
+
+
+Copyright © 2024 Outbrain Inc. All rights reserved. Outbrain is a trademark of Outbrain Inc.
+
+Interest-Based Ads (Opt Out)
+Advertiser Guidelines
+Privacy Policy
+Cookies
+Security
+Patents
+Terms of Use
+
+
+
+
+
+

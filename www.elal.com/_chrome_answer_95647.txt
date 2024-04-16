@@ -1,0 +1,221 @@
+Delete, allow and manage cookies in Chrome - Computer - Google Chrome Help   Skip to main content   Google Chrome HelpSign in Send feedback on...This help content & informationGeneral Help Center experienceNextHelp CenterCommunityGoogle Chrome       Delete, allow and manage cookies in ChromeYou can choose to delete existing cookies, allow or block all cookies, and set preferences for certain websites.
+Important: If you are part of the Tracking Protection test group, you will see a new Chrome setting for managing third-party cookies called "Tracking Protection." Learn more about Tracking Protection.
+What cookies are
+Cookies are files created by websites you visit. By saving information about your visit, they make your online experience easier. For example, sites can keep you signed in, remember your site preferences, and give you locally relevant content.
+There are 2 types of cookies:
+
+First-party cookies: Created by the site you visit. The site is shown in the address bar.
+Third-party cookies: Created by other sites. A site you visit can embed content from other sites, for example images, ads, and text. Any of these other sites can save cookies and other data to personalize your experience.
+
+  Computer AndroidiPhone & iPad   More  MoreMore         Delete all cookies
+Important: If you delete cookies, you might get signed out of sites that remember you, and your saved preferences could be deleted. This applies any time a cookie is deleted.
+
+On your computer, open Chrome.
+At the top right, click More   Settings .
+Click Privacy and security  Third-party cookies.
+    
+Tip: If you are part of the Tracking Protection test group, select Tracking Protection instead.
+
+
+Click See all site data and permissions  Delete all data.
+To confirm, click Delete.
+
+Delete specific cookies
+Delete cookies from a site
+
+
+On your computer, open Chrome.
+At the top right, click More   Settings .
+Click Privacy and security  Third-party cookies.
+      
+Tip:  If you are part of the Tracking Protection test group, select Tracking Protection instead.
+
+
+Click See all site data and permissions.
+At the top right, search for the website's name.
+To the right of the site, click Delete .
+To confirm, click Delete.
+
+
+Delete cookies from a period of time
+
+On your computer, open Chrome.
+At the top right, click More   Clear browsing data.
+At the top, next to "Time range," click the dropdown.
+Choose a time period, such as the last hour or the last day.
+Check Cookies and other site data.
+Uncheck all the other items.
+Click Clear data.
+
+
+Change your cookie settings
+Important: If you don't allow sites to save cookies, sites may not work as expected. To manage first-party cookies, learn more about on-device site data.
+
+You can allow or block cookies for any site.
+Allow or block third-party cookies
+
+You can allow or block third-party cookies by default.
+
+On your computer, open Chrome .
+At the top right, click More   Settings .
+Click Privacy and security  Third-party cookies.
+    
+Tip: If you are part of the Tracking Protection test group, follow the “Tracking Protection” instructions instead.
+
+
+Select an option:
+    
+Allow third-party cookies.
+Block third-party cookies in Incognito mode.
+Block third-party cookies.
+        
+If you block third-party cookies, all third-party cookies from other sites are blocked unless the site is allowed on your exceptions list.
+
+
+
+
+
+
+
+Allow third-party cookies for a specific site
+
+Important: If you’re using your Chromebook at work or school, you might not be able to change this setting. For more help, contact your administrator.
+If you block third-party cookies by default, you can still allow them for a certain site.
+
+On your computer, open Chrome.
+At the top right, click More   Settings.
+Click Privacy and security  Third-party cookies. 
+
+Tip: If you are part of the Tracking Protection test group, select Tracking Protection instead.
+
+
+Next to "Allowed to use third party cookies," click Add.
+Enter the web address.
+    
+To create an exception for an entire domain, insert [*.] before the domain name. For example, [*.]google.com will match drive.google.com and calendar.google.com.
+You can also put an IP address or a web address that doesn't start with http://.
+
+
+Select Add.
+
+To remove an exception you don't want any more, to the right of the website, click Remove .
+
+
+
+Allow third-party cookies temporarily for a specific site
+
+
+If you block third-party cookies, some sites may not work as you expected. You can temporarily allow third-party cookies for a specific site you visit.
+
+On your computer, open Chrome.
+In the address bar at the top:
+          
+To allow third-party cookies: Select Third-party cookies blocked or Tracking protection  and turn on Third-party cookies.
+To block third-party cookies: Select Third-party cookies allowed or Tracking protection  and turn off Third-party cookies.
+
+
+To close the dialog box and reload the page, select Close . You can also select anywhere outside of the dialog box to close it.
+Once the page reloads, the address bar shows “Third-party cookies allowed,” “Third-party cookies blocked,” or “Third-party cookies limited” depending on your settings.
+
+Tips:
+
+This option is only temporary and only for the site you’re on.
+Sites get added to the exception list automatically.
+If you temporarily allow third-party cookies on a site, that setting carries over into Incognito mode and you can't reset it from Incognito mode.
+
+
+
+
+Allow related sites to access your activity
+
+A company can define a group of sites that are related to each other. For example, a company might want to keep you signed in as you move between acme-music.example and acme-video.example.
+If you allow third-party cookies: Allows related sites to access your activity to personalize content or keep you signed in across sites.
+If you block third-party cookies: It often prevents this kind of connection between sites. You can block third-party cookies while you allow sites in the same group to improve your experience.
+You can find the full list of companies who define groups of related sites on Github. Learn more about related sites and third-party cookies.
+Important: If you select “Allow third-party cookies,” then a group of related sites can share your activity in the group by default.
+Important: If you have “Tracking Protection” in your settings, then a group of related sites can share your activity in the group by default.
+
+To allow related sites to see your activity within the group:
+
+On your computer, open Chrome.
+At the top right, click More   Settings.
+Click Privacy and security  Third-party cookies.
+        
+Tip: If you are part of the Tracking Protection test group, follow the “Tracking Protection” instructions instead.
+
+
+Select Block third-party cookies.
+Turn Allow related sites to see your activity in the group on or off.
+
+To show related sites in the same group:
+
+On your computer, open Chrome.
+At the top right, click More   Settings.
+Click Privacy and security  Third-party cookies  See all site data and permissions.
+        
+Tip: If you are part of the Tracking Protection test group, select Tracking Protection instead.
+
+
+Choose a site.
+Click More   Show sites in the same group.
+
+Tip:
+
+To find related sites, next to the address bar, click View site information   Cookies and site data  See related sites.
+
+        
+If you are part of the Tracking Protection test group, select Tracking Protection instead.
+
+
+
+
+
+About embedded content
+
+Sites you visit can embed content from other sites, for example images, ads, text, and even features — like a text editor or weather widget. These other sites can ask for permission to use info they’ve saved about you (often saved using cookies) in order for their content to function properly.
+For example, imagine you normally compose documents on docs.google.com. While completing a task for school, you need to collaborate with other students on your school’s class portal that offers direct access to Google Docs. With your permission:
+
+Google Docs can access its third-party cookies while you use your school’s site, allowing a connection between the site and Google Docs.
+This may allow Google Docs to verify who you are, find your info, and save changes you make to your documents on the site.
+
+In some cases, this info can be used to track your activity as you browse sites. As a privacy feature, you can decide when to allow embedded content to access your data for sites you trust.
+Tip: The connection uses cookies and lasts for 30 days or as long as you remain active. You can stop allowing the connection anytime in Settings.
+To allow or decline permission
+When you browse a site that displays a prompt requesting for permission for the embedded content to use information they’ve saved about you:
+
+Select Allow to give the site access to information they’ve saved about you (using cookies)
+Select Don’t allow to deny access 
+
+Tips:
+
+To stop allowing access, learn how to manage site settings permissions.
+You can also manage access by clicking View site information  to the left of the address bar, and then turning Embedded content on or off.
+
+
+
+Manage your tracking protections
+When turned on, Tracking Protection significantly limits sites from using third-party cookies to track you as you browse, except for limited cases to allow basic services to function. If you choose to, you can block third-party cookies completely in your settings. You can manage your Tracking Protection preferences in your “Privacy and Security” settings.
+
+On your computer, open Chrome.
+At the top right, click More   Settings .
+Click Privacy and security  Tracking Protection.
+You can also choose advanced privacy protections:
+      
+Block all third-party cookies: When you toggle this on, features on some sites may not work. Chrome blocks all third-party cookies from sites you visit, including related sites.
+Send “Do not track” request with your browsing traffic: When you toggle this on, you request that sites not track you. Sites use their discretion whether to comply with the request. Learn more about "Do Not Track".
+Choose which sites you allow to use third-party cookies: You can also check and edit which sites you allow to use third party cookies under “Sites allowed to use third-party cookies.” Learn how to allow third-party cookies.
+
+
+
+
+Related resources
+
+Change site settings permissions
+Clear browsing data
+Clear cache and cookies
+Manage your ad privacy in Chrome
+Learn about on-device site data in Chrome
+
+   Was this helpful?How can we improve it?YesNoSubmit         true    Help1 of 8Clear browsing data in Chrome2 of 8Export your data from Chrome3 of 8Check & delete your Chrome browsing history4 of 8Delete, allow and manage cookies in Chrome5 of 8Manage passwords6 of 8Lock or erase your lost phone or computer7 of 8Reset Chrome settings to default8 of 8Learn about on-device site data in Chrome           Want a preview of what's coming soon? Download the beta version of Chrome, then join our community and let us know how well it works for you.
+ 
+           ©2024 Google   Privacy Policy   Terms of Service     Afrikaans‎català‎dansk‎Deutsch‎eesti‎English (United Kingdom)‎español‎español (Latinoamérica)‎Filipino‎français‎hrvatski‎Indonesia‎isiZulu‎italiano‎Kiswahili‎latviešu‎lietuvių‎magyar‎Melayu‎Nederlands‎norsk‎polski‎português‎português (Brasil)‎română‎slovenčina‎slovenščina‎suomi‎svenska‎Tiếng Việt‎Türkçe‎čeština‎Ελληνικά‎български‎русский‎српски‎українська‎‏עברית‏العربية‏فارسیमराठी‎हिन्दी‎తెలుగు‎ไทย‎አማርኛ‎中文（简体）‎中文（繁體）‎日本語‎한국어‎ English‎  English‎Afrikaans‎català‎dansk‎Deutsch‎eesti‎English (United Kingdom)‎español‎español (Latinoamérica)‎Filipino‎français‎hrvatski‎Indonesia‎isiZulu‎italiano‎Kiswahili‎latviešu‎lietuvių‎magyar‎Melayu‎Nederlands‎norsk‎polski‎português‎português (Brasil)‎română‎slovenčina‎slovenščina‎suomi‎svenska‎Tiếng Việt‎Türkçe‎čeština‎Ελληνικά‎български‎русский‎српски‎українська‎‏עברית‏العربية‏فارسیमराठी‎हिन्दी‎తెలుగు‎ไทย‎አማርኛ‎中文（简体）‎中文（繁體）‎日本語‎한국어‎English‎     Enable Dark Mode     Send feedback on... This help content & information General Help Center experience          SearchClear searchClose searchMain menuGoogle apps 17512341151762200073                true       Search Help Center  true   true   true    Google HelpHelp CenterCommunityGoogle ChromePrivacy PolicyTerms of ServiceSubmit feedback    true true 237               false                                  false 

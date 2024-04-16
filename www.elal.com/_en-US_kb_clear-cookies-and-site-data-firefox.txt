@@ -1,0 +1,755 @@
+
+
+
+
+
+
+
+  Clear cookies and site data in Firefox | Firefox Help
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Skip to main content
+Switch language
+Skip to search
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Search
+Menu
+
+
+
+
+
+
+
+
+Get Help
+
+
+
+Close Firefox menu
+
+
+
+
+
+
+
+
+
+Ask a Question
+
+                Get support from our contributors or staff members.
+              
+
+
+
+
+                  Firefox Browser
+                
+
+
+
+                  Mozilla VPN
+                
+
+
+
+                  Firefox for iOS
+                
+
+
+
+                  Firefox Focus
+                
+
+
+
+                  Firefox for Android
+                
+
+
+
+                  Browse All Products
+                
+
+
+
+
+
+
+
+
+
+
+
+
+
+Explore Our Help Articles
+
+                Dig into the knowledge base, tips and tricks, troubleshooting, and so much more.
+              
+
+
+
+
+                  Firefox Browser
+                
+
+
+
+                  Mozilla VPN
+                
+
+
+
+                  Firefox for iOS
+                
+
+
+
+                  Firefox Focus
+                
+
+
+
+                  Firefox for Android
+                
+
+
+
+                  Browse All Articles
+                
+
+
+
+
+
+
+
+
+
+
+
+Mozilla Account
+
+                Find help for common issues and learn about the benefits a Mozilla account provides.
+              
+
+
+
+
+                  What Is It?
+                
+
+
+
+                  Get Help
+                
+
+
+
+                  Reset Password
+                
+
+
+
+
+                  Sync Your Data
+                
+
+
+
+
+
+
+
+
+
+
+    Contribute
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+Search
+
+
+
+
+    Sign In/Up
+  
+
+
+
+
+
+
+
+
+
+
+
+Search
+
+
+
+
+
+
+
+
+
+
+
+Search Support
+
+
+
+Search
+
+
+
+
+
+
+
+
+Home
+Firefox
+Protect your privacy
+Cookies and cache
+Clear cookies and site data in Firefox
+
+
+
+
+
+
+
+
+Search
+
+
+
+
+
+Customize this article
+
+
+
+
+Customize this article
+
+
+
+Firefox
+
+
+
+
+                      Version 125
+                    
+
+                      Version 124
+                    
+
+                      Version 123
+                    
+
+                      Version 122
+                    
+
+                      Version 121
+                    
+
+                      Version 120
+                    
+
+                      Version 119
+                    
+
+                      Version 118
+                    
+
+                      Version 117
+                    
+
+                      Version 116
+                    
+
+                      Version 115
+                    
+
+
+
+
+
+                      Windows 8
+                    
+
+                      Windows 7/Vista
+                    
+
+                      Windows XP
+                    
+
+                      Mac
+                    
+
+                      Linux
+                    
+
+                      Windows 10
+                    
+
+                      Windows 11
+                    
+
+
+
+
+
+
+
+
+
+
+
+
+
+Was this article helpful?
+
+
+
+Yes👍
+No👎
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        Download Firefox
+      
+
+Systems and Languages
+What's New
+Privacy
+
+
+
+Give Firefox a tune up
+
+        Refresh Firefox
+      
+
+
+            How does it work?
+          
+
+
+            Download a fresh copy
+          
+
+
+
+
+
+
+Clear cookies and site data in Firefox
+
+
+
+
+      (Redirected from Delete cookies to remove the information websites have stored on your computer)
+    
+
+Cookies are stored on your computer by websites you visit and contain information such as site preferences or login status. This article describes how to delete Firefox cookies, other site data and cached web content.
+
+ If you just want to clear the Firefox cache, see How to clear the Firefox cache.
+ To clear your browsing history, cookies and temporarily cached files at once, see Delete browsing, search and download history on Firefox.
+ To prevent websites from storing cookies on your computer, see Block websites from storing cookies and site data in Firefox.
+
+Table of Contents1 Clear cookies for the current website2 Clear cookies for any website3 Clear all cookies, site data and cache4 Clear all cookies and keep other data
+Clear cookies for the current website
+To delete cookies and site data for a website you're currently visiting:
+
+Click the padlock  at the left of the address bar.
+
+
+Click Clear Cookies and Site data.
+
+Clear cookies for any website
+To delete cookies for any single website:
+
+ In the Menu bar at the top of the screen, click Firefox and then select Preferences or Settings, depending on your macOS version.Click the menu button  and select Settings.
+ Select the Privacy & Security panel and go to the Cookies and Site Data section.
+
+
+ Click the Manage Data… button. The Manage Cookies and Site Data dialog will appear.
+ In the Search websites field, type the name of the site whose cookies you want to remove. Items that match your search will be displayed.
+
+
+ To remove all cookies and storage data for the website, click Remove All Shown.
+ To remove selected items, select an entry and click Remove Selected.
+
+ Click Save Changes.
+ In the Removing Cookies and Site Data confirmation dialog that opens, click OK.
+ Close the about:preferences page.
+
+To learn more about managing site data in Firefox, see Manage local site storage settings and Enhanced Cookie Clearing.
+
+Note: You can use the Storage Inspector to remove individual cookies for a specific website, via the right-click context menu. To open the Storage Inspector, go to the menu button , click More tools and then click Web Developer Tools (or press  Ctrl + Shift + ICmd + Opt + I on the keyboard) and select Storage.
+Clear all cookies, site data and cache
+ In the Menu bar at the top of the screen, click Firefox and then select Preferences or Settings, depending on your macOS version.Click the menu button  and select Settings.
+ Select the Privacy & Security panel and go to the Cookies and Site Data section.
+ Click the Clear Data… button. The Clear Data dialog will appear.
+ 
+
+ Cookies and Site Data (to remove login status and site preferences) and Cached Web Content (to remove stored images, scripts and other cached content) should both be check marked.
+
+ Click Clear.
+
+Clear all cookies and keep other data
+To delete only cookies while keeping other data, do the following:
+
+ Click the menu button , click History and then click Clear Recent History….
+ Set Time range to clear: to Everything.
+
+
+ Select Cookies and make sure that other items you want to keep are not selected.
+ Click OKClear Now to clear all cookies and close the Clear All History window.
+
+
+
+
+          
+          Share this article: https://mzl.la/3vVeO8Y
+
+
+
+
+
+
+Was this article helpful?
+
+
+
+Yes👍
+No👎
+
+
+
+
+
+
+These fine people helped write this article: AliceWyman, Chris Ilias, Underpass, novica, Tonnes, smo, Michael Verdi, scoobidiver, Swarnava Sengupta, soucet, Joergen, ideato, Mozinet, user832823, Lan, pollti, scootergrisen, Joni, Ömer Timur, risirajdey, Fabi
+
+
+
+
+
+
+Volunteer
+Grow and share your expertise with others. Answer questions and improve our knowledge base.
+Learn More
+
+
+
+
+
+
+Related Articles
+
+
+
+
+
+
+
+
+                    How to clear the Firefox cache
+                  
+
+
+
+                  The Firefox cache temporarily stores images, scripts, and other parts of websites you visit in order to speed up your browsing experience. This...
+                  
+
+
+
+
+
+
+
+
+                    Websites say cookies are blocked - Unblock them
+                  
+
+
+
+                  This article describes how to troubleshoot problems that involve websites reporting that cookies are blocked or disabled.  For more information on...
+                  
+
+
+
+
+
+
+
+
+                    Manage local site storage settings
+                  
+
+
+
+                  Some websites have the ability to store information, such as files, in your local storage, and these files can only be removed manually by you....
+                  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Mozilla
+
+Report Trademark Abuse
+Source code
+Twitter
+
+
+                Join our Community
+              
+
+
+
+                Explore Help Articles
+              
+
+
+
+
+Firefox
+
+Download
+Firefox Desktop
+Android Browser
+iOS Browser
+Focus Browser
+
+
+
+Firefox for Developers
+
+Developer Edition
+Beta
+Beta for Android
+Nightly
+Nightly for Android
+
+
+
+Mozilla Account
+
+Sign In/Up
+
+
+                What Is It?
+              
+
+Reset Password
+
+
+                Sync Your Data
+              
+
+
+
+                Get Help
+              
+
+
+
+
+
+Language
+Language
+
+Afrikaans
+عربي
+Azərbaycanca
+Български
+Bamanankan
+বাংলা
+Bosanski
+català
+Čeština
+Dansk
+Deutsch
+Èʋegbe
+Ελληνικά
+English
+Español
+eesti keel
+Euskara
+فارسی
+suomi
+Français
+Frysk
+Gaeilge (Éire)
+Galego
+Avañe'ẽ
+ગુજરાતી
+هَرْشَن هَوْسَ
+עברית
+हिन्दी (भारत)
+Hrvatski
+Magyar
+Dolnoserbšćina
+Hornjoserbsce
+Bahasa Indonesia
+Asụsụ Igbo
+Italiano
+日本語
+ქართული
+ខ្មែរ
+ಕನ್ನಡ
+한국어
+Lingála
+lietuvių kalba
+Malagasy
+Македонски
+മലയാളം
+Bahasa Melayu
+नेपाली
+Nederlands
+Norsk
+Polski
+Português (do Brasil)
+Português (Europeu)
+română
+Русский
+සිංහල
+slovenčina
+slovenščina
+Shqip
+Српски
+Kiswahili
+Svenska
+தமிழ்
+தமிழ் (இலங்கை)
+తెలుగు
+ไทย
+Setswana
+Türkçe
+Українська
+اُردو
+Tiếng Việt
+Wolof
+isiXhosa
+èdè Yorùbá
+中文 (简体)
+正體中文 (繁體)
+isiZulu
+
+
+Go
+
+
+Twitter(@firefox)
+YouTube (firefoxchannel)
+Instagram (firefox)
+
+
+
+
+
+
+Mozilla
+
+
+mozilla.org
+Terms of Service
+Privacy
+Cookies
+Contact
+
+
+
+
+
+          Visit Mozilla Corporation’s not-for-profit parent, the Mozilla Foundation.
+        
+
+          Portions of this content are ©1998–2024 by individual mozilla.org contributors. Content available under a Creative Commons license.
+        
+
+
+
+
+

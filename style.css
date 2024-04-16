@@ -1,0 +1,10 @@
+/* style.css */
+html, body, .stApp {
+    direction: rtl;  /* Right to left */
+    text-align: right;  /* Align text to the right */
+    color: #1b358f;  /* Tomato color, you can use any hex color */
+}
+
+h1, h2, h3 {
+            color: #1b358f;  /* Royal blue color */
+        }
