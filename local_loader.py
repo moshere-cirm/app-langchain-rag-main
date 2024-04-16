@@ -43,7 +43,9 @@ def get_document_text(uploaded_file, title=None):
         pdf_reader = PdfReader(uploaded_file)
         for num, page in enumerate(pdf_reader.pages):
             page = page.extract_text()
+            page = page.replace("\n", " ")
             doc = Document(page_content=page, metadata={'title': title, 'page': (num + 1)})
+
             docs.append(doc)
 
     else:

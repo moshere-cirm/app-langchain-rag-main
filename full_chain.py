@@ -35,7 +35,7 @@ def create_full_chain(retriever, openai_api_key=None, chat_memory=ChatMessageHis
 
 
 def ask_question(chain, query):
-    response = chain.invoke(
+    response = chain.stream(
         {"question": query},
         config={"configurable": {"session_id": "foo"}}
     )

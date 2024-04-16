@@ -51,6 +51,23 @@ def get_wiki_docs(query, load_max_docs=2):
         print(d.metadata["title"])
     return docs
 
+def reverse_hebrew_text(text):
+    """Reverses the lines in Hebrew text for correct RTL display."""
+    reversed_lines = [line[::-1] for line in text.split('\n')]
+    return '\n'.join(reversed_lines)
+def get_google_doc(document_url):
+    """Download and return the content of a publicly accessible Google Docs document."""
+    # Change the link to point to the export URL for plain text format
+    export_url = document_url.replace('/edit?usp=sharing', '/export?format=txt')
+
+    # Make a request to get the document content in plain text format
+    response = requests.get(export_url)
+    if response.status_code == 200:
+        return reverse_hebrew_text(response.text)
+    else:
+        raise Exception("Failed to download document: HTTP status code {}".format(response.status_code))
+
+
 
 def main():
     # run through the different remote loading functions.
