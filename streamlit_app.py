@@ -1,3 +1,5 @@
+import base64
+
 import streamlit as st
 from langchain_community.chat_message_histories import StreamlitChatMessageHistory
 from langchain_community.embeddings import OpenAIEmbeddings
@@ -9,17 +11,46 @@ from local_loader import load_txt_files
 st.set_page_config(page_title="אני הבוט של חברת אלעל")
 #st.title("אני הבוט של חברת אלעל")
 
+font_path = "./static/fonts/PingHL-Medium.otf"
+with open(font_path, "rb") as font_file:
+    base64_font = base64.b64encode(font_file.read()).decode('utf-8')
+
+# Define the custom font along with your styles
+font_css = f"""
+<style>
+@font-face {{
+    font-family: 'PingFang HL';
+    src: url(data:font/opentype;base64,{base64_font}) format('opentype');
+}}
+
+html, body, .stApp {{
+    direction: rtl !important;
+    text-align: right !important;
+    color: #1b358f !important;
+    font-family: 'PingFang HL' !important;
+}}
+
+h1, h2, h3 {{
+    color: #1b358f !important;
+    font-family: 'PingFang HL' !important;
+}}
+</style>
+"""
+
+st.markdown(font_css, unsafe_allow_html=True)
+
 with open("./logo-he-desktop.svg", "r") as file:
     svg = file.read()
 
 # Embed SVG using Markdown
+#st.markdown(f'<h1>{svg} אני הבוט של חברת אלעל</h1>', unsafe_allow_html=True)
 st.markdown(f'<h1>{svg} אני הבוט של חברת אלעל</h1>', unsafe_allow_html=True)
 
 def local_css(file_name):
     with open(file_name,"r") as f:
         st.markdown(f"<style>{f.read()}</style>", unsafe_allow_html=True)
 
-local_css("style.css")  # Assuming you have a CSS file named 'style.css'
+#local_css("style.css")  # Assuming you have a CSS file named 'style.css'
 
 
 
