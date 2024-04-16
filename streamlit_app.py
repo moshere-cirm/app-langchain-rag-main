@@ -90,12 +90,12 @@ def get_retriever(openai_api_key=None):
     #docs = load_txt_files()
 
     document_url = "https://docs.google.com/document/d/1cmxtchfuuySNTMKAs8GffdHlhpRHz1UlzkM6_ONW7yU/edit?usp=sharing"
-    document_text = get_google_doc(document_url)
+    #document_text = get_google_doc(document_url)
     #print("google document text " + document_text)
-    docs = []
-    doc = Document(page_content=document_text, metadata={'title': '', 'page': 1})
+    #docs = []
+    #doc = Document(page_content=document_text, metadata={'title': '', 'page': 1})
 
-    docs.append(doc)
+    #docs.append(doc)
     embeddings = OpenAIEmbeddings(openai_api_key=openai_api_key, model="text-embedding-3-small")
     return ensemble_retriever_from_docs(docs, embeddings=embeddings)
 
