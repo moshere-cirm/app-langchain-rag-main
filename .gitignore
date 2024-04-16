@@ -4,3 +4,4 @@
 *.pkl
 *.bin
 *.pyc
+*.parquet
