@@ -4,13 +4,14 @@ import streamlit as st
 from langchain_community.chat_message_histories import StreamlitChatMessageHistory
 from langchain_community.embeddings import OpenAIEmbeddings
 from langchain_core.documents import Document
+from streamlit.components.v1 import html
 
 from ensemble import ensemble_retriever_from_docs
 from full_chain import create_full_chain, ask_question
 from local_loader import load_txt_files, get_document_text
 from remote_loader import get_google_doc
 
-st.set_page_config(page_title="אני הבוט של חברת אלעל")
+st.set_page_config(page_title="אני הבוט של אלעל")
 #st.title("אני הבוט של חברת אלעל")
 
 font_path = "./static/fonts/PingHL-Medium.otf"
@@ -20,22 +21,28 @@ with open(font_path, "rb") as font_file:
 # Define the custom font along with your styles
 font_css = f"""
 <style>
+logo {{
+    position: fixed;
+    top: 0;
+    right: 0; /* Ensures positioning on the right */
+    left: auto; /* Overrides any default left positioning in RTL */
+    margin: 10px;
+}}
 @font-face {{
     font-family: 'PingFang HL';
     src: url(data:font/opentype;base64,{base64_font}) format('opentype');
 }}
-
 html, body, .stApp {{
     direction: rtl !important;
     text-align: right !important;
     color: #1b358f !important;
     font-family: 'PingFang HL' !important;
 }}
-
 h1, h2, h3 {{
     color: #1b358f !important;
     font-family: 'PingFang HL' !important;
 }}
+
 </style>
 """
 
@@ -44,10 +51,12 @@ st.markdown(font_css, unsafe_allow_html=True)
 with open("./logo-he-desktop.svg", "r") as file:
     svg = file.read()
 
-# Embed SVG using Markdown
-#st.markdown(f'<h1>{svg} אני הבוט של חברת אלעל</h1>', unsafe_allow_html=True)
-st.markdown(f'<h1>{svg} אני הבוט של חברת אלעל</h1>', unsafe_allow_html=True)
+# Embed SVG using custom CSS class for positioning
+#st.markdown(f'<div class="logo">{svg}</div>', unsafe_allow_html=True)
+html(f'<div class="logo">{svg}</div>')
 
+# Displaying the title normally, without including it inside the logo's Markdown
+st.markdown('<h1>אני הבוט של אלעל</h1>', unsafe_allow_html=True)
 def local_css(file_name):
     with open(file_name,"r") as f:
         st.markdown(f"<style>{f.read()}</style>", unsafe_allow_html=True)
@@ -74,7 +83,7 @@ def show_ui(qa, prompt_to_user="How may I help you?"):
     # Generate a new response if last message is not from assistant
     if st.session_state.messages[-1]["role"] != "assistant":
         with st.chat_message("assistant"):
-            with st.spinner("הנה התשובה:"):
+            with st.spinner("בעבודה:"):
                 stream = ask_question(qa, prompt)
                 response = st.write_stream(stream)
                 #st.markdown(response.content)
@@ -145,8 +154,8 @@ def run():
 
     if ready:
         chain = get_chain(openai_api_key=openai_api_key, huggingfacehub_api_token=huggingfacehub_api_token)
-        st.subheader("שאל אותי ככל העולה על רוחך בנושא אלעל")
-        show_ui(chain, "מה תרצה לדעת על חברת אלעל?")
+        #st.subheader("שאל אותי ככל העולה על רוחך בנושא אלעל")
+        show_ui(chain, "שלום, כיצד אוכל לעזור?")
     else:
         st.stop()
 
