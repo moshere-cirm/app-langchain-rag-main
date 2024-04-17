@@ -18,7 +18,11 @@ def create_full_chain(retriever, openai_api_key=None, chat_memory=ChatMessageHis
     If you don't know the answer, just say that you don't know. 
     
     Context: {context}
-    Please give your response in Hebrew!
+    Each section start with reference url with the following prefix: 'Relevant URL', for example: 
+    Relevant URL: https://www.elal.com/heb/baggage/pets 
+    please add the URL link (example: https://www.elal.com/heb/baggage/pets) to the answer as hyperlink with the subject of the answer
+    In case the human question is in Hebrew, please give your answer in Hebrew only! 
+    otherwise answer in Engligh
     Question: """
 
     prompt = ChatPromptTemplate.from_messages(

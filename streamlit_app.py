@@ -21,13 +21,6 @@ with open(font_path, "rb") as font_file:
 # Define the custom font along with your styles
 font_css = f"""
 <style>
-logo {{
-    position: fixed;
-    top: 0;
-    right: 0; /* Ensures positioning on the right */
-    left: auto; /* Overrides any default left positioning in RTL */
-    margin: 10px;
-}}
 @font-face {{
     font-family: 'PingFang HL';
     src: url(data:font/opentype;base64,{base64_font}) format('opentype');
@@ -53,10 +46,12 @@ with open("./logo-he-desktop.svg", "r") as file:
 
 # Embed SVG using custom CSS class for positioning
 #st.markdown(f'<div class="logo">{svg}</div>', unsafe_allow_html=True)
-html(f'<div class="logo">{svg}</div>')
+# Modify the SVG positioning
+html(f'<div style="position: fixed; top: 5px; right: 0; margin-right: 10px;">{svg}</div>')
 
-# Displaying the title normally, without including it inside the logo's Markdown
-st.markdown('<h1>אני הבוט של אלעל</h1>', unsafe_allow_html=True)
+# Adjust the title style with reduced margin-top
+st.markdown('<h1 style="margin-top: 0px;">אני הבוט של אלעל</h1>', unsafe_allow_html=True)
+
 def local_css(file_name):
     with open(file_name,"r") as f:
         st.markdown(f"<style>{f.read()}</style>", unsafe_allow_html=True)
