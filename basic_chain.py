@@ -1,3 +1,5 @@
+from langchain_community.chat_models import ChatCohere
+from langchain_community.llms.cohere import Cohere
 from langchain_core.output_parsers import StrOutputParser
 from langchain_core.prompts import ChatPromptTemplate
 from langchain_openai import ChatOpenAI
@@ -11,9 +13,21 @@ MISTRAL_ID = "mistralai/Mistral-7B-Instruct-v0.1"
 ZEPHYR_ID = "HuggingFaceH4/zephyr-7b-beta"
 
 
-def get_model(repo_id=ZEPHYR_ID, **kwargs):
+def get_model(repo_id="ZEPHYR_ID", **kwargs):
     if repo_id == "ChatGPT":
         chat_model = ChatOpenAI(model='gpt-4-turbo', temperature=0, **kwargs)
+    elif repo_id == "Cohere":
+        cohere_api_key = kwargs.get("openai_api_key", None)
+        if cohere_api_key is None:
+            raise ValueError("Cohere API key is required for Cohere models")
+
+        cohere = Cohere(
+            cohere_api_key=cohere_api_key,
+            model='command-r-plus',
+            temperature=0.1,
+            max_tokens=512
+        )
+        chat_model = ChatCohere(cohere=cohere, cohere_api_key=cohere_api_key)
     else:
         huggingfacehub_api_token = kwargs.get("HUGGINGFACEHUB_API_TOKEN", None)
         llm = HuggingFaceHub(
@@ -25,9 +39,12 @@ def get_model(repo_id=ZEPHYR_ID, **kwargs):
                 "top_k": 30,
                 "temperature": 0.1,
                 "repetition_penalty": 1.03,
-            })
+            }
+        )
         chat_model = ChatHuggingFace(llm=llm)
+
     return chat_model
+
 
 
 def basic_chain(model=None, prompt=None):

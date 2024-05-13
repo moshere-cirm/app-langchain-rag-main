@@ -5,3 +5,5 @@
 *.bin
 *.pyc
 *.parquet
+.idea/app-langchain-rag-main.iml
+.streamlit/secrets.toml

@@ -13,12 +13,12 @@ from dotenv import load_dotenv
 
 
 def ensemble_retriever_from_docs(docs, embeddings=None):
-    texts = split_documents(docs)
+    texts = docs #split_documents(docs)
     vs = create_vector_db(texts, embeddings)
     vs_retriever = vs.as_retriever()
 
     bm25_retriever = BM25Retriever.from_texts([t.page_content for t in texts])
-
+    bm25_retriever.k = 25
     ensemble_retriever = EnsembleRetriever(
         retrievers=[bm25_retriever, vs_retriever],
         weights=[0.5, 0.5])

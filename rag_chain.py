@@ -34,7 +34,9 @@ def get_question(input):
     else:
         raise Exception("string or dict with 'question' key expected as RAG chain input.")
 
-
+def print_context(context):
+    print("Context:", context)  # This will print the context
+    return context
 def make_rag_chain(model, retriever, rag_prompt = None):
     # We will use a prompt template from langchain hub.
     if not rag_prompt:
@@ -43,7 +45,7 @@ def make_rag_chain(model, retriever, rag_prompt = None):
     # And we will use the LangChain RunnablePassthrough to add some custom processing into our chain.
     rag_chain = (
             {
-                "context": RunnableLambda(get_question) | retriever | format_docs,
+                "context": RunnableLambda(get_question) | retriever | format_docs | RunnableLambda(print_context),
                 "question": RunnablePassthrough()
             }
             | rag_prompt

@@ -10,11 +10,11 @@ from ensemble import ensemble_retriever_from_docs
 from full_chain import create_full_chain, ask_question
 from local_loader import load_txt_files, get_document_text
 from remote_loader import get_google_doc
+st.set_page_config(page_title="זיכרון שלוניקי")
 
-st.set_page_config(page_title="אני הבוט של אלעל")
-#st.title("אני הבוט של חברת אלעל")
 
-font_path = "./static/fonts/PingHL-Medium.otf"
+
+font_path = "./static/fonts/YiddishkeitAlefAlefAlef-Bold.otf"
 with open(font_path, "rb") as font_file:
     base64_font = base64.b64encode(font_file.read()).decode('utf-8')
 
@@ -41,17 +41,30 @@ h1, h2, h3 {{
 
 st.markdown(font_css, unsafe_allow_html=True)
 
-with open("./logo-he-desktop.svg", "r") as file:
-    svg = file.read()
+with open("./zichron_s.png", "rb") as file:
+    png = file.read()
 
 # Embed SVG using custom CSS class for positioning
 #st.markdown(f'<div class="logo">{svg}</div>', unsafe_allow_html=True)
 # Modify the SVG positioning
-html(f'<div style="position: fixed; top: 5px; right: 0; margin-right: 10px;">{svg}</div>')
+# Encode the binary data to base64
+encoded_png = base64.b64encode(png).decode('utf-8')
 
-# Adjust the title style with reduced margin-top
-st.markdown('<h1 style="margin-top: 0px;">אני הבוט של אלעל</h1>', unsafe_allow_html=True)
+# Create the HTML string with the base64-encoded image
+# Create the HTML string with the base64-encoded image
+html_string = f'''
+<div>
+    <img src="data:image/png;base64,{encoded_png}" style="display: block; width: 100%; max-width: 300px;">
+</div>
+'''
 
+# Display the image
+st.markdown(html_string, unsafe_allow_html=True)
+
+# Add a title or heading
+st.markdown('''
+    <h1 style="margin-top: 20px;">אני הבוט של ״זיכרון שלוניקי״</h1>
+''', unsafe_allow_html=True)
 def local_css(file_name):
     with open(file_name,"r") as f:
         st.markdown(f"<style>{f.read()}</style>", unsafe_allow_html=True)
@@ -89,8 +102,12 @@ def show_ui(qa, prompt_to_user="How may I help you?"):
 
 @st.cache_resource
 def get_retriever(openai_api_key=None):
-    example_pdf_path = "pdf/elal_info.pdf"
+    example_pdf_path = ("pdf/zichron_saloniki_a.pdf")
+    #example_pdf_path_b = ("pdf/zichron_saloniki_b.pdf")
     docs = get_document_text(open(example_pdf_path, "rb"))
+    #docs_b = get_document_text(open(example_pdf_path_b, "rb"))
+
+    combined_docs = docs
     #docs = load_txt_files()
 
     document_url = "https://docs.google.com/document/d/1cmxtchfuuySNTMKAs8GffdHlhpRHz1UlzkM6_ONW7yU/edit?usp=sharing"
@@ -100,8 +117,9 @@ def get_retriever(openai_api_key=None):
     #doc = Document(page_content=document_text, metadata={'title': '', 'page': 1})
 
     #docs.append(doc)
-    embeddings = OpenAIEmbeddings(openai_api_key=openai_api_key, model="text-embedding-3-small")
-    return ensemble_retriever_from_docs(docs, embeddings=embeddings)
+    #embeddings = OpenAIEmbeddings(openai_api_key=openai_api_key, model="text-embedding-3-large")
+
+    return ensemble_retriever_from_docs(combined_docs, embeddings=None)
 
 
 def get_chain(openai_api_key=None, huggingfacehub_api_token=None):
