@@ -1,5 +1,7 @@
 import base64
+import os
 
+import requests
 import streamlit as st
 from langchain_community.chat_message_histories import StreamlitChatMessageHistory
 from langchain_community.embeddings import OpenAIEmbeddings
@@ -8,9 +10,11 @@ from streamlit.components.v1 import html
 
 from ensemble import ensemble_retriever_from_docs
 from full_chain import create_full_chain, ask_question
+from gdrive_download import download_file
 from local_loader import load_txt_files, get_document_text
-from remote_loader import get_google_doc
-st.set_page_config(page_title="זיכרון שלוניקי")
+from remote_loader import get_google_doc, download_large_file_from_google_drive
+
+st.set_page_config(page_title="זכרון שלוניקי")
 
 
 
@@ -63,7 +67,7 @@ st.markdown(html_string, unsafe_allow_html=True)
 
 # Add a title or heading
 st.markdown('''
-    <h1 style="margin-top: 20px;">אני הבוט של ״זיכרון שלוניקי״</h1>
+    <h1 style="margin-top: 20px;">אני הבוט של ״זכרון שלוניקי״</h1>
 ''', unsafe_allow_html=True)
 def local_css(file_name):
     with open(file_name,"r") as f:
@@ -103,13 +107,21 @@ def show_ui(qa, prompt_to_user="How may I help you?"):
 @st.cache_resource
 def get_retriever(openai_api_key=None):
     example_pdf_path = ("pdf/zichron_saloniki_a.pdf")
+
+    if not os.path.exists(example_pdf_path):
+        #download file
+        download_file('1Y54RvtIAt-MhVJIy_99wW-cv1T1zmSrz', 'pdf/zichron_saloniki_a.pdf')
     #example_pdf_path_b = ("pdf/zichron_saloniki_b.pdf")
+
     docs = get_document_text(open(example_pdf_path, "rb"))
     #docs_b = get_document_text(open(example_pdf_path_b, "rb"))
 
     combined_docs = docs
     #docs = load_txt_files()
 
+
+    #download_url = "https://drive.google.com/uc?export=download&id=1Y54RvtIAt-MhVJIy_99wW-cv1T1zmSrz"
+    #download_large_file_from_google_drive(download_url)
     document_url = "https://docs.google.com/document/d/1cmxtchfuuySNTMKAs8GffdHlhpRHz1UlzkM6_ONW7yU/edit?usp=sharing"
     #document_text = get_google_doc(document_url)
     #print("google document text " + document_text)
