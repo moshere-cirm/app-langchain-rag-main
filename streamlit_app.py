@@ -1,5 +1,6 @@
 import base64
 import os
+import shutil
 
 import requests
 import streamlit as st
@@ -161,6 +162,13 @@ def run():
 
     openai_api_key = st.session_state.get("OPENAI_API_KEY")
     huggingfacehub_api_token = st.session_state.get("HUGGINGFACEHUB_API_TOKEN")
+
+    directory_path = 'store'
+    if os.path.exists(directory_path):
+        shutil.rmtree(directory_path)
+        print(f"Deleted directory: {directory_path}")
+    else:
+        print(f"Directory does not exist: {directory_path}")
 
     with st.sidebar:
         if not openai_api_key:
