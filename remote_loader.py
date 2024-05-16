@@ -1,6 +1,7 @@
 import requests
 import os
 
+from bs4 import BeautifulSoup
 from langchain_community.document_loaders import WebBaseLoader, WikipediaLoader
 from local_loader import get_document_text
 from langchain_community.document_loaders import OnlinePDFLoader
@@ -68,6 +69,34 @@ def get_google_doc(document_url):
         raise Exception("Failed to download document: HTTP status code {}".format(response.status_code))
 
 
+def download_large_file_from_google_drive(url):
+    session = requests.Session()
+
+    # Initial GET request
+    response = session.get(url)
+    response.raise_for_status()
+
+    # Google Drive's large file warning page (if it exists)
+    for _ in range(3):  # retry mechanism to ensure proper cookie handling
+        soup = BeautifulSoup(response.text, 'html.parser')
+        form = soup.find('form')
+        if form:
+            # Construct the download URL with the confirmation token
+            download_url = form['action']
+            payload = {}
+            for input_tag in form.find_all('input'):
+                name = input_tag.get('name')
+                value = input_tag.get('value', '')
+                if name:  # Ensure the input tag has a 'name' attribute
+                    payload[name] = value
+
+            response = session.get(download_url, params=payload, cookies=response.cookies)
+
+    # Save the PDF to a file
+    with open('downloaded_file.pdf', 'wb') as file:
+        file.write(response.content)
+
+    print("PDF downloaded successfully!")
 
 def main():
     # run through the different remote loading functions.
