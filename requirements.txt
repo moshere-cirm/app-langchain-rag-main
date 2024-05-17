@@ -1,6 +1,6 @@
 chroma-hnswlib==0.7.3
 hnswlib==0.8.0
-chromadb==0.3.29
+chromadb==0.5.0
 huggingface-hub==0.21.3
 langchain==0.1.20
 langchain-community==0.0.38
@@ -39,7 +39,7 @@ SQLAlchemy==2.0.27
 streamlit==1.34.0
 sympy==1.12
 tiktoken==0.5.2
-tokenizers==0.15.2
+tokenizers==0.19.1
 toml
 torch==2.2.1
 torchvision==0.17.1
