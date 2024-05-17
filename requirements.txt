@@ -44,7 +44,7 @@ toml
 torch==2.2.1
 torchvision==0.17.1
 tqdm
-transformers==4.38.2
+transformers==4.40.2
 unstructured==0.12.4
 unstructured-client==0.18.0
 unstructured-inference==0.7.23
