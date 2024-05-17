@@ -18,7 +18,6 @@ from remote_loader import get_google_doc, download_large_file_from_google_drive
 st.set_page_config(page_title="זכרון שלוניקי")
 
 
-
 font_path = "./static/fonts/YiddishkeitAlefAlefAlef-Bold.otf"
 with open(font_path, "rb") as font_file:
     base64_font = base64.b64encode(font_file.read()).decode('utf-8')
@@ -164,8 +163,9 @@ def run():
     huggingfacehub_api_token = st.session_state.get("HUGGINGFACEHUB_API_TOKEN")
 
     directory_path = 'store'
-    if os.path.exists(directory_path):
+    if os.path.exists(directory_path) and 'init_steps' not in st.session_state:
         shutil.rmtree(directory_path)
+        st.session_state.init_steps = True
         print(f"Deleted directory: {directory_path}")
     else:
         print(f"Directory does not exist: {directory_path}")
