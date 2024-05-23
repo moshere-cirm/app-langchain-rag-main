@@ -173,6 +173,7 @@ def run():
 
     openai_api_key = st.session_state.get("OPENAI_API_KEY")
     huggingfacehub_api_token = st.session_state.get("HUGGINGFACEHUB_API_TOKEN")
+    google_api_token = st.session_state.get("GOOGLE_CREDENTIALS_JSON")
 
 
 
@@ -184,11 +185,19 @@ def run():
             huggingfacehub_api_token = get_secret_or_input('HUGGINGFACEHUB_API_TOKEN', "HuggingFace Hub API Token",
                                                            info_link="https://huggingface.co/docs/huggingface_hub/main/en/quick-start#authentication")
 
+        if not google_api_token:
+            google_api_token = get_secret_or_input('GOOGLE_CREDENTIALS_JSON', "Google API Token",
+                                                           info_link="https://huggingface.co/docs/huggingface_hub/main/en/quick-start#authentication")
+
     if not openai_api_key:
         st.warning("Missing OPENAI_API_KEY")
         ready = False
     if not huggingfacehub_api_token:
         st.warning("Missing HUGGINGFACEHUB_API_TOKEN")
+        ready = False
+
+    if not google_api_token:
+        st.warning("Missing GOOGLE_CREDENTIALS_JSON")
         ready = False
 
     if ready:
