@@ -14,7 +14,7 @@ SCOPES = ['https://www.googleapis.com/auth/drive.readonly']
 # Path to the OAuth 2.0 credentials JSON file
 
 # Function to authenticate and return the service
-def authenticate(session_state):
+def authenticate():
     creds_json = get_secret_or_input('GOOGLE_CREDENTIALS_JSON', "GDriver API key",
                                                  info_link="https://platform.openai.com/account/api-keys")
 
@@ -38,8 +38,8 @@ def get_secret_or_input(secret_key, secret_name, info_link=None):
             st.markdown(f"[Get an {secret_name}]({info_link})")
     return secret_value
 # Function to download a file from Google Drive
-def download_file(file_id, output_path, session_state):
-    service = authenticate(session_state)
+def download_file(file_id, output_path):
+    service = authenticate()
     request = service.files().get_media(fileId=file_id)
     fh = io.FileIO(output_path, 'wb')
     downloader = MediaIoBaseDownload(fh, request)

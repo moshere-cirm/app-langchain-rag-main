@@ -117,7 +117,7 @@ def get_retriever(openai_api_key=None):
 
     if not os.path.exists(example_pdf_path):
         #download file
-        download_file('1IAqCbHVdex2vwVho5rMzCgJ0B0jCvnA7', example_pdf_path, st.session_state)
+        download_file('1IAqCbHVdex2vwVho5rMzCgJ0B0jCvnA7', example_pdf_path)
 
     example_pdf_path = ("pdf/zichron_saloniki_b.pdf")
     if not os.path.exists(example_pdf_path):
