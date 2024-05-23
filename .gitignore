@@ -7,3 +7,8 @@
 *.parquet
 .idea/app-langchain-rag-main.iml
 .streamlit/secrets.toml
+/zichron
+/store
+/store
+/pdf
+/store
