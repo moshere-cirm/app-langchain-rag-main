@@ -1,6 +1,7 @@
-import base64
+import sys
 import os
 import shutil
+import base64
 
 import requests
 import streamlit as st
@@ -16,6 +17,7 @@ from local_loader import load_txt_files, get_document_text
 from remote_loader import get_google_doc, download_large_file_from_google_drive
 
 st.set_page_config(page_title="זכרון שלוניקי")
+sys.modules['sqlite3'] = __import__('pysqlite3')
 
 
 font_path = "./static/fonts/YiddishkeitAlefAlefAlef-Bold.otf"
