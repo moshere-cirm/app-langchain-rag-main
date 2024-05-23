@@ -58,3 +58,4 @@ google-auth-httplib2==0.2.0
 google-api-python-client==2.129.0
 cohere==5.4.0
 pysqlite3-binary
+pysqlite3
