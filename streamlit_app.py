@@ -106,11 +106,23 @@ def show_ui(qa, prompt_to_user="How may I help you?"):
 
 @st.cache_resource
 def get_retriever(openai_api_key=None):
+    directory_path = 'store'
+    if os.path.exists(directory_path) and 'init_steps' not in st.session_state:
+        shutil.rmtree(directory_path)
+        print(f"Deleted directory: {directory_path}")
+    else:
+        print(f"Directory does not exist: {directory_path}")
+    st.session_state.init_steps = True
     example_pdf_path = ("pdf/zichron_saloniki_a.pdf")
 
     if not os.path.exists(example_pdf_path):
         #download file
-        download_file('1Y54RvtIAt-MhVJIy_99wW-cv1T1zmSrz', 'pdf/zichron_saloniki_a.pdf')
+        download_file('1IAqCbHVdex2vwVho5rMzCgJ0B0jCvnA7', example_pdf_path, st.session_state)
+
+    example_pdf_path = ("pdf/zichron_saloniki_b.pdf")
+    if not os.path.exists(example_pdf_path):
+        #download file
+        download_file('1Y54RvtIAt-MhVJIy_99wW-cv1T1zmSrz', example_pdf_path)
     #example_pdf_path_b = ("pdf/zichron_saloniki_b.pdf")
 
     docs = get_document_text(open(example_pdf_path, "rb"))
@@ -162,13 +174,7 @@ def run():
     openai_api_key = st.session_state.get("OPENAI_API_KEY")
     huggingfacehub_api_token = st.session_state.get("HUGGINGFACEHUB_API_TOKEN")
 
-    directory_path = 'store'
-    if os.path.exists(directory_path) and 'init_steps' not in st.session_state:
-        shutil.rmtree(directory_path)
-        st.session_state.init_steps = True
-        print(f"Deleted directory: {directory_path}")
-    else:
-        print(f"Directory does not exist: {directory_path}")
+
 
     with st.sidebar:
         if not openai_api_key:

@@ -24,7 +24,7 @@ def get_model(repo_id="ZEPHYR_ID", **kwargs):
         cohere = Cohere(
             cohere_api_key=cohere_api_key,
             model='command-r-plus',
-            temperature=0.1,
+            temperature=0.0,
             max_tokens=512
         )
         chat_model = ChatCohere(cohere=cohere, cohere_api_key=cohere_api_key)

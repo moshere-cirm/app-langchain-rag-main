@@ -45,7 +45,7 @@ def make_rag_chain(model, retriever, rag_prompt = None):
     # And we will use the LangChain RunnablePassthrough to add some custom processing into our chain.
     rag_chain = (
             {
-                "context": RunnableLambda(get_question) | retriever | format_docs,
+                "context": RunnableLambda(get_question) | retriever | format_docs | RunnableLambda(print_context),
                 "question": RunnablePassthrough()
             }
             | rag_prompt

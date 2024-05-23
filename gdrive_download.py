@@ -1,3 +1,4 @@
+import json
 import os
 import io
 from google.oauth2.credentials import Credentials
@@ -5,34 +6,40 @@ from google_auth_oauthlib.flow import InstalledAppFlow
 from google.auth.transport.requests import Request
 from googleapiclient.discovery import build
 from googleapiclient.http import MediaIoBaseDownload
+import streamlit as st
 
 # Scopes required to access Google Drive
 SCOPES = ['https://www.googleapis.com/auth/drive.readonly']
 
 # Path to the OAuth 2.0 credentials JSON file
-CREDENTIALS_FILE = 'client_secret_588659940013-eu1qgqoh0opo1t0ko3jbd01unogopif0.apps.googleusercontent.com.json'
 
 # Function to authenticate and return the service
-def authenticate():
-    creds = None
-    # Check if token.json file exists
-    if os.path.exists('token.json'):
-        creds = Credentials.from_authorized_user_file('token.json', SCOPES)
-    # If there are no (valid) credentials available, let the user log in.
-    if not creds or not creds.valid:
-        if creds and creds.expired and creds.refresh_token:
-            creds.refresh(Request())
-        else:
-            flow = InstalledAppFlow.from_client_secrets_file(CREDENTIALS_FILE, SCOPES)
-            creds = flow.run_local_server(port=0)
-        # Save the credentials for the next run
-        with open('token.json', 'w') as token:
-            token.write(creds.to_json())
-    return build('drive', 'v3', credentials=creds)
+def authenticate(session_state):
+    creds_json = get_secret_or_input('GOOGLE_CREDENTIALS_JSON', "GDriver API key",
+                                                 info_link="https://platform.openai.com/account/api-keys")
 
+    if creds_json:
+        creds_dict = json.loads(creds_json)
+        creds = Credentials.from_authorized_user_info(creds_dict, SCOPES)
+
+        return build('drive', 'v3', credentials=creds)
+
+
+def get_secret_or_input(secret_key, secret_name, info_link=None):
+    if secret_key in st.secrets:
+        st.write("Found %s secret" % secret_key)
+        secret_value = st.secrets[secret_key]
+    else:
+        st.write(f"Please provide your {secret_name}")
+        secret_value = st.text_input(secret_name, key=f"input_{secret_key}", type="password")
+        if secret_value:
+            st.session_state[secret_key] = secret_value
+        if info_link:
+            st.markdown(f"[Get an {secret_name}]({info_link})")
+    return secret_value
 # Function to download a file from Google Drive
-def download_file(file_id, output_path):
-    service = authenticate()
+def download_file(file_id, output_path, session_state):
+    service = authenticate(session_state)
     request = service.files().get_media(fileId=file_id)
     fh = io.FileIO(output_path, 'wb')
     downloader = MediaIoBaseDownload(fh, request)
