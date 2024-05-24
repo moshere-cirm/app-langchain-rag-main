@@ -4,7 +4,7 @@ huggingface-hub==0.21.3
 langchain==0.1.20
 langchain-community==0.0.38
 langchain-core==0.1.52
-langchain-openai==0.0.8
+langchain-openai==0.0.5
 langchain-text-splitters==0.0.1
 langchainhub==0.1.14
 langdetect==1.0.9
