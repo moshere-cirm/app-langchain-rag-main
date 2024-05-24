@@ -56,5 +56,5 @@ google-auth-httplib2==0.2.0
 google-api-python-client==2.129.0
 cohere==5.4.0
 streamlit==1.28.1
-chromadb==0.4.17
-embedchain==0.1.102
+chromadb==0.3.29
+embedchain==0.1.101
