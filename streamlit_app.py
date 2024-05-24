@@ -1,23 +1,17 @@
-import sys
+import os
 import os
 import shutil
 import base64
 
-import requests
 import streamlit as st
 from langchain_community.chat_message_histories import StreamlitChatMessageHistory
-from langchain_community.embeddings import OpenAIEmbeddings
-from langchain_core.documents import Document
-from streamlit.components.v1 import html
 
 from ensemble import ensemble_retriever_from_docs
 from full_chain import create_full_chain, ask_question
 from gdrive_download import download_file
-from local_loader import load_txt_files, get_document_text
-from remote_loader import get_google_doc, download_large_file_from_google_drive
+from local_loader import get_document_text
 
 st.set_page_config(page_title="זכרון שלוניקי")
-sys.modules['sqlite3'] = __import__('pysqlite3')
 
 
 font_path = "./static/fonts/YiddishkeitAlefAlefAlef-Bold.otf"
