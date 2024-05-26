@@ -1,0 +1,25 @@
+services:
+  zichron:
+    build:
+      context: ../../app-langchain-rag-main
+      dockerfile: Dockerfile
+    ports:
+      - "8501:8501"
+    networks:
+      - app-network
+
+  caddy:
+    image: caddy:2
+    container_name: caddy_proxy
+    restart: unless-stopped
+    ports:
+      - "80:80"
+      - "443:443"
+    volumes:
+      - ./Caddyfile:/etc/caddy/Caddyfile
+    networks:
+      - app-network
+
+networks:
+  app-network:
+    driver: bridge
