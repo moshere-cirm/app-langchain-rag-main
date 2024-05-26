@@ -143,7 +143,7 @@ def get_retriever(openai_api_key=None, google_api_token=None):
 
 
 def get_chain(openai_api_key=None, huggingfacehub_api_token=None, google_api_token=None):
-    ensemble_retriever = get_retriever(openai_api_key=openai_api_key, google_api_key=google_api_token)
+    ensemble_retriever = get_retriever(openai_api_key=openai_api_key, google_api_token=google_api_token)
     chain = create_full_chain(ensemble_retriever,
                               openai_api_key=openai_api_key,
                               chat_memory=StreamlitChatMessageHistory(key="langchain_messages"))
