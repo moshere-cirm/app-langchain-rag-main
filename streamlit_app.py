@@ -101,7 +101,7 @@ def show_ui(qa, prompt_to_user="How may I help you?"):
 
 
 @st.cache_resource
-def get_retriever(openai_api_key=None):
+def get_retriever(openai_api_key=None, google_api_token=None):
     directory_path = 'store'
     if os.path.exists(directory_path) and 'init_steps' not in st.session_state:
         shutil.rmtree(directory_path)
@@ -113,12 +113,12 @@ def get_retriever(openai_api_key=None):
 
     if not os.path.exists(example_pdf_path):
         #download file
-        download_file('1IAqCbHVdex2vwVho5rMzCgJ0B0jCvnA7', example_pdf_path)
+        download_file('1IAqCbHVdex2vwVho5rMzCgJ0B0jCvnA7', example_pdf_path, google_api_token)
 
     example_pdf_path = ("pdf/zichron_saloniki_b.pdf")
     if not os.path.exists(example_pdf_path):
         #download file
-        download_file('1Y54RvtIAt-MhVJIy_99wW-cv1T1zmSrz', example_pdf_path)
+        download_file('1Y54RvtIAt-MhVJIy_99wW-cv1T1zmSrz', example_pdf_path, google_api_token)
     #example_pdf_path_b = ("pdf/zichron_saloniki_b.pdf")
 
     docs = get_document_text(open(example_pdf_path, "rb"))
@@ -142,8 +142,8 @@ def get_retriever(openai_api_key=None):
     return ensemble_retriever_from_docs(combined_docs, embeddings=None)
 
 
-def get_chain(openai_api_key=None, huggingfacehub_api_token=None):
-    ensemble_retriever = get_retriever(openai_api_key=openai_api_key)
+def get_chain(openai_api_key=None, huggingfacehub_api_token=None, google_api_token=None):
+    ensemble_retriever = get_retriever(openai_api_key=openai_api_key, google_api_key=google_api_token)
     chain = create_full_chain(ensemble_retriever,
                               openai_api_key=openai_api_key,
                               chat_memory=StreamlitChatMessageHistory(key="langchain_messages"))
@@ -197,7 +197,7 @@ def run():
         ready = False
 
     if ready:
-        chain = get_chain(openai_api_key=openai_api_key, huggingfacehub_api_token=huggingfacehub_api_token)
+        chain = get_chain(openai_api_key=openai_api_key, huggingfacehub_api_token=huggingfacehub_api_token, google_api_token=google_api_token)
         #st.subheader("שאל אותי ככל העולה על רוחך בנושא אלעל")
         show_ui(chain, "שלום, כיצד אוכל לעזור?")
     else:
