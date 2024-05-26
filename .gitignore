@@ -1,15 +1,8 @@
 
 *.xml
-*.pkl
-*.pkl
-*.bin
 *.pyc
-*.parquet
 .idea/app-langchain-rag-main.iml
 .streamlit/secrets.toml
 /zichron
-/store
-/store
-/store
 /__pycache__
 /__pycache__

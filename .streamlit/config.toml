@@ -1,4 +1,2 @@
 [theme]
 base="light"
-[server]
-startupTimeout = 500  # Adjust the time in seconds as necessary

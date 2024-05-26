@@ -102,12 +102,12 @@ def show_ui(qa, prompt_to_user="How may I help you?"):
 
 @st.cache_resource
 def get_retriever(openai_api_key=None, google_api_token=None):
-    directory_path = 'store'
-    if os.path.exists(directory_path) and 'init_steps' not in st.session_state:
-        shutil.rmtree(directory_path)
-        print(f"Deleted directory: {directory_path}")
-    else:
-        print(f"Directory does not exist: {directory_path}")
+    #directory_path = 'store'
+    #if os.path.exists(directory_path) and 'init_steps' not in st.session_state:
+    #    shutil.rmtree(directory_path)
+    #    print(f"Deleted directory: {directory_path}")
+    #else:
+    #    print(f"Directory does not exist: {directory_path}")
     st.session_state.init_steps = True
     dir_name = "pdf"
 

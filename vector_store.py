@@ -44,7 +44,12 @@ def create_vector_db(texts, embeddings=None, collection_name="chroma"):
     db = Chroma(collection_name=collection_name,
                 embedding_function=proxy_embeddings,
                 persist_directory=os.path.join("store/", collection_name))
-    db.add_documents(texts)
+
+    directory_path = 'store'
+    if not os.path.exists(directory_path):
+        db.add_documents(texts)
+    else:
+        print("Skipping build DB")
 
     # db = Chroma.from_documents(texts, embeddings)
     return db
