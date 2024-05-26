@@ -109,6 +109,14 @@ def get_retriever(openai_api_key=None, google_api_token=None):
     else:
         print(f"Directory does not exist: {directory_path}")
     st.session_state.init_steps = True
+    dir_name = "pdf"
+
+    # Create directory
+    if not os.path.exists(dir_name):
+        os.makedirs(dir_name)
+        print(f"Directory '{dir_name}' was created successfully.")
+    else:
+        print(f"Directory '{dir_name}' already exists.")
     example_pdf_path = ("pdf/zichron_saloniki_a.pdf")
 
     if not os.path.exists(example_pdf_path):
