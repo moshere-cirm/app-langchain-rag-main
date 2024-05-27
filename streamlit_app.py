@@ -63,6 +63,13 @@ st.markdown(html_string, unsafe_allow_html=True)
 
 # Add a title or heading
 st.markdown('''
+    <title>הבוט של זכרון שלוניקי</title>
+    <meta name="description" content="הבוט של זכרון שלוניקי" />
+    <meta property="og:title" content="זכרון שלוניקי" />
+
+<meta property="og:description" content="הבוט של זכרון שלוניקי" />
+<meta property="og:type" content="article" />
+<meta property="og:locale" content="he-il" />
     <h3 style="margin-top: 20px;">הבוט של ״זכרון שלוניקי״</h3>
     <h3>  מבוסס על הספר - בעריכת דוד א׳ רקנטי ז״ל  </h3>
     <h3>   <a href="https://drive.google.com/file/d/1IAqCbHVdex2vwVho5rMzCgJ0B0jCvnA7/view?usp=drive_link" target="_blank">זכרון שלוניקי חלק א׳</a> </h3>
