@@ -35,7 +35,7 @@ def create_vector_db(texts, embeddings=None, collection_name="chroma"):
         # embeddings = HuggingFaceEmbeddings(model_name="all-MiniLM-L6-v2")
         #openai_api_key = os.environ["OPENAI_API_KEY"]
         #embeddings = OpenAIEmbeddings(openai_api_key=openai_api_key, model="text-embedding-3-large")
-        embeddings = HuggingFaceEmbeddings(model_name="sentence-transformers/LaBSE")
+        #embeddings = HuggingFaceEmbeddings(model_name="sentence-transformers/LaBSE")
         embeddings = HuggingFaceEmbeddings(model_name='imvladikon/sentence-transformers-alephbert')
 
     proxy_embeddings = EmbeddingProxy(embeddings)

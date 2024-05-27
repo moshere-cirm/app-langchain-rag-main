@@ -63,7 +63,11 @@ st.markdown(html_string, unsafe_allow_html=True)
 
 # Add a title or heading
 st.markdown('''
-    <h1 style="margin-top: 20px;">אני הבוט של ״זכרון שלוניקי״</h1>
+    <h3 style="margin-top: 20px;">הבוט של ״זכרון שלוניקי״</h3>
+    <h3>  מבוסס על הספר - בעריכת דוד א׳ רקנטי ז״ל  </h3>
+    <h3>   <a href="https://drive.google.com/file/d/1IAqCbHVdex2vwVho5rMzCgJ0B0jCvnA7/view?usp=drive_link" target="_blank">זכרון שלוניקי חלק א׳</a> </h3>
+      
+
 ''', unsafe_allow_html=True)
 def local_css(file_name):
     with open(file_name,"r") as f:
@@ -102,13 +106,6 @@ def show_ui(qa, prompt_to_user="How may I help you?"):
 
 @st.cache_resource
 def get_retriever(openai_api_key=None, google_api_token=None):
-    #directory_path = 'store'
-    #if os.path.exists(directory_path) and 'init_steps' not in st.session_state:
-    #    shutil.rmtree(directory_path)
-    #    print(f"Deleted directory: {directory_path}")
-    #else:
-    #    print(f"Directory does not exist: {directory_path}")
-    st.session_state.init_steps = True
     dir_name = "pdf"
 
     # Create directory
@@ -117,35 +114,23 @@ def get_retriever(openai_api_key=None, google_api_token=None):
         print(f"Directory '{dir_name}' was created successfully.")
     else:
         print(f"Directory '{dir_name}' already exists.")
-    example_pdf_path = ("pdf/zichron_saloniki_a.pdf")
+    example_pdf_path_a = ("pdf/zichron_saloniki_a.pdf")
 
-    if not os.path.exists(example_pdf_path):
+    if not os.path.exists(example_pdf_path_a):
         #download file
-        download_file('1IAqCbHVdex2vwVho5rMzCgJ0B0jCvnA7', example_pdf_path, google_api_token)
+        download_file('1IAqCbHVdex2vwVho5rMzCgJ0B0jCvnA7', example_pdf_path_a, google_api_token)
 
-    example_pdf_path = ("pdf/zichron_saloniki_b.pdf")
-    if not os.path.exists(example_pdf_path):
+    docs_a = get_document_text(open(example_pdf_path_a, "rb"))
+    example_pdf_path_b = ("pdf/zichron_saloniki_b.pdf")
+    if not os.path.exists(example_pdf_path_b):
         #download file
-        download_file('1Y54RvtIAt-MhVJIy_99wW-cv1T1zmSrz', example_pdf_path, google_api_token)
-    #example_pdf_path_b = ("pdf/zichron_saloniki_b.pdf")
-
-    docs = get_document_text(open(example_pdf_path, "rb"))
-    #docs_b = get_document_text(open(example_pdf_path_b, "rb"))
-
-    combined_docs = docs
-    #docs = load_txt_files()
+        download_file('1Y54RvtIAt-MhVJIy_99wW-cv1T1zmSrz', example_pdf_path_b, google_api_token)
 
 
-    #download_url = "https://drive.google.com/uc?export=download&id=1Y54RvtIAt-MhVJIy_99wW-cv1T1zmSrz"
-    #download_large_file_from_google_drive(download_url)
-    document_url = "https://docs.google.com/document/d/1cmxtchfuuySNTMKAs8GffdHlhpRHz1UlzkM6_ONW7yU/edit?usp=sharing"
-    #document_text = get_google_doc(document_url)
-    #print("google document text " + document_text)
-    #docs = []
-    #doc = Document(page_content=document_text, metadata={'title': '', 'page': 1})
+    docs_b = get_document_text(open(example_pdf_path_b, "rb"))
 
-    #docs.append(doc)
-    #embeddings = OpenAIEmbeddings(openai_api_key=openai_api_key, model="text-embedding-3-large")
+    combined_docs = docs_a + docs_b
+
 
     return ensemble_retriever_from_docs(combined_docs, embeddings=None)
 
