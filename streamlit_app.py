@@ -71,8 +71,8 @@ st.markdown('''
 <meta property="og:type" content="article" />
 <meta property="og:locale" content="he-il" />
     <h3 style="margin-top: 20px;">הבוט של ״זכרון שלוניקי״</h3>
-    <h3>  מבוסס על הספר - בעריכת דוד א׳ רקנטי ז״ל  </h3>
-    <h3>   <a href="https://drive.google.com/file/d/1IAqCbHVdex2vwVho5rMzCgJ0B0jCvnA7/view?usp=drive_link" target="_blank">זכרון שלוניקי חלק א׳</a> </h3>
+    <h3>  מבוסס על שני כרכי הספר - בעריכת דוד א׳ רקנטי ז״ל  </h3>
+    <h3>   <a href="https://drive.google.com/drive/folders/1sDNWML78p39R_wBC-9GyggiXgeIumq4o?usp=drive_link" target="_blank">ספרי זכרון שלוניקי</a> </h3>
       
 
 ''', unsafe_allow_html=True)
