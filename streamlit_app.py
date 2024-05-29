@@ -152,7 +152,6 @@ def get_chain(openai_api_key=None, huggingfacehub_api_token=None, google_api_tok
 
 def get_secret_or_input(secret_key, secret_name, info_link=None):
     if secret_key in st.secrets:
-        st.write("Found %s secret" % secret_key)
         secret_value = st.secrets[secret_key]
     else:
         st.write(f"Please provide your {secret_name}")

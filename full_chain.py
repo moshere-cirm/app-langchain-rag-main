@@ -21,7 +21,7 @@ import torch
 
 
 def create_full_chain(retriever, openai_api_key=None, chat_memory=ChatMessageHistory()):
-    model = get_model("ChatGPT", openai_api_key=openai_api_key)
+    model = get_model("Cohere", openai_api_key=openai_api_key)
     system_prompt = """
     You are an intelligent Hebrew chatbot with a unique purpose. Your sole objective is to provide information and answer questions exclusively related to the content of the book Zichron Saloniki, which explores the history and culture of Jews in Thessaloniki. Your responses must reflect a deep understanding of this specific text.
 
