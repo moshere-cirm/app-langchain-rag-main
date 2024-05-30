@@ -18,7 +18,7 @@ def ensemble_retriever_from_docs(docs, embeddings=None):
     vs_retriever = vs.as_retriever()
 
     bm25_retriever = BM25Retriever.from_texts([t.page_content for t in texts])
-    bm25_retriever.k = 25
+    bm25_retriever.k = 10
     ensemble_retriever = EnsembleRetriever(
         retrievers=[bm25_retriever, vs_retriever],
         weights=[0.5, 0.5])

@@ -1,10 +1,12 @@
 from langchain_community.chat_models import ChatCohere
 from langchain_community.llms.cohere import Cohere
+from langchain_community.llms.anthropic import Anthropic
 from langchain_core.output_parsers import StrOutputParser
 from langchain_core.prompts import ChatPromptTemplate
 from langchain_openai import ChatOpenAI
 from langchain_community.llms import HuggingFaceHub
 from langchain_community.chat_models.huggingface import ChatHuggingFace
+from langchain_anthropic import ChatAnthropic
 
 from dotenv import load_dotenv
 
@@ -28,6 +30,13 @@ def get_model(repo_id="ZEPHYR_ID", **kwargs):
             max_tokens=512
         )
         chat_model = ChatCohere(cohere=cohere, cohere_api_key=cohere_api_key)
+    elif repo_id == "Claude":
+        claude_api_key = kwargs.get("openai_api_key", None)
+        if claude_api_key is None:
+            raise ValueError("Claude API key is required for Claude models")
+
+
+        chat_model = ChatAnthropic(model='claude-3-opus-20240229', anthropic_api_key=claude_api_key, temperature=0.0, max_tokens=1024)
     else:
         huggingfacehub_api_token = kwargs.get("HUGGINGFACEHUB_API_TOKEN", None)
         llm = HuggingFaceHub(
