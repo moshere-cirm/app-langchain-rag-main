@@ -76,6 +76,8 @@ st.markdown('''
       
 
 ''', unsafe_allow_html=True)
+
+
 def local_css(file_name):
     with open(file_name,"r") as f:
         st.markdown(f"<style>{f.read()}</style>", unsafe_allow_html=True)
@@ -127,14 +129,15 @@ def get_retriever(openai_api_key=None, google_api_token=None):
         #download file
         download_file('1IAqCbHVdex2vwVho5rMzCgJ0B0jCvnA7', example_pdf_path_a, google_api_token)
 
-    docs_a = get_document_text(open(example_pdf_path_a, "rb"))
+    docs_a = get_document_text(open(example_pdf_path_a, "rb"), title="זכרון שלוניקי א")
+
     example_pdf_path_b = ("pdf/zichron_saloniki_b.pdf")
     if not os.path.exists(example_pdf_path_b):
         #download file
         download_file('1Y54RvtIAt-MhVJIy_99wW-cv1T1zmSrz', example_pdf_path_b, google_api_token)
 
 
-    docs_b = get_document_text(open(example_pdf_path_b, "rb"))
+    docs_b = get_document_text(open(example_pdf_path_b, "rb"), title="זכרון שלוניקי ב")
 
     combined_docs = docs_a + docs_b
 

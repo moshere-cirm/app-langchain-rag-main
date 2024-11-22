@@ -41,15 +41,20 @@ def create_vector_db(texts, embeddings=None, collection_name="chroma"):
     proxy_embeddings = EmbeddingProxy(embeddings)
     # Create a vectorstore from documents
     # this will be a chroma collection with a default name.
-    db = Chroma(collection_name=collection_name,
-                embedding_function=proxy_embeddings,
-                persist_directory=os.path.join("store/", collection_name))
 
     directory_path = 'store'
     if not os.path.exists(directory_path):
+        db = Chroma(collection_name=collection_name,
+                    embedding_function=proxy_embeddings,
+                    persist_directory=os.path.join("store/", collection_name))
+
         db.add_documents(texts)
+        db.persist()
     else:
         print("Skipping build DB")
+        db = Chroma(collection_name=collection_name,
+                    embedding_function=proxy_embeddings,
+                    persist_directory=os.path.join("store/", collection_name))
 
     # db = Chroma.from_documents(texts, embeddings)
     return db

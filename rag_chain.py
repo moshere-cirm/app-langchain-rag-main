@@ -19,8 +19,10 @@ def find_similar(vs, query):
 
 
 def format_docs(docs):
-    return "\n\n".join(doc.page_content for doc in docs)
-
+    return "\n\n".join(
+        f"{doc.page_content} ( Doc name: {doc.metadata['title']}, Page #: {doc.metadata['page']})"
+        for doc in docs
+    )
 
 def get_question(input):
     if not input:
