@@ -1,0 +1,42 @@
+syntax = "proto3";
+
+message Media {
+    string url = 1;
+    string type = 2;
+}
+
+message TestTheoryReallyRequest {
+    optional string theory = 1;
+    repeated Media mediaUrls = 2;
+    repeated string excludeLinks = 3;
+}
+
+message Profile {
+    string img = 1;
+    string name = 2;
+}
+
+message Sources {
+    string url = 1;
+    string title = 2;
+    Profile profile = 3;
+}
+
+message TestTheoryReallyResponse {
+    repeated Sources sources = 1;
+    string verdict = 2;
+    string fact = 3;
+    string key = 4;
+    string tldr = 5;
+    string x = 6;
+    string summary = 7;
+    string version = 8;
+    string prompt = 9;
+}
+
+message CombinedResult {
+    repeated TestTheoryReallyResponse images = 1;
+    repeated TestTheoryReallyResponse videos = 2;
+    TestTheoryReallyResponse text = 3;
+    TestTheoryReallyResponse fullResponse = 4;
+}

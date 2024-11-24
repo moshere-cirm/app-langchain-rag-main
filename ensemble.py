@@ -2,6 +2,7 @@ import os
 
 from langchain_community.retrievers import BM25Retriever
 from langchain.retrievers import EnsembleRetriever
+from langchain_core.documents import Document
 from langchain_core.output_parsers import StrOutputParser
 
 from basic_chain import get_model
@@ -13,14 +14,22 @@ from dotenv import load_dotenv
 
 
 def ensemble_retriever_from_docs(docs, embeddings=None):
-    texts = docs #split_documents(docs)
-    vs = create_vector_db(texts, embeddings)
-    vs_retriever = vs.as_retriever()
+    # texts = docs[:50] #split_documents(docs)
+    vs = create_vector_db(docs, embeddings)
+    vs_docs = vs.get()
+    contents = vs_docs['documents']
+    metadatas = vs_docs['metadatas']
 
-    bm25_retriever = BM25Retriever.from_texts([t.page_content for t in texts])
-    bm25_retriever.k = 10
+    documents = [
+        Document(page_content=content, metadata=metadata)
+        for content, metadata in zip(contents, metadatas)
+    ]
+
+    bm25_retriever = BM25Retriever.from_documents(documents)
+    bm25_retriever.k = 5
+
     ensemble_retriever = EnsembleRetriever(
-        retrievers=[bm25_retriever, vs_retriever],
+        retrievers=[bm25_retriever, vs.as_retriever()],
         weights=[0.5, 0.5])
 
     return ensemble_retriever

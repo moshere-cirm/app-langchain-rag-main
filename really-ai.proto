@@ -1,0 +1,9 @@
+syntax = "proto3";
+
+package ai;
+
+import "test-theory-messages.proto";
+
+service ReallyAiService {
+    rpc ReallyTestTheory(TestTheoryReallyRequest) returns (CombinedResult);
+}
